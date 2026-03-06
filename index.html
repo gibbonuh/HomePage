@@ -61,11 +61,11 @@
     }
 
     .viewer {
-      background: #000;
+      background: transparent;
       border-radius: 12px;
       overflow: hidden;
       min-height: 70vh;
-      border: 1px solid rgba(255, 255, 255, 0.14);
+      border: 0;
       position: relative;
     }
 
@@ -83,27 +83,29 @@
       padding: 16px;
       overflow: auto;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 14px;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 160px));
+      justify-content: center;
+      gap: 12px;
       align-content: start;
-      background: rgba(0, 0, 0, 0.38);
+      background: transparent;
     }
 
     .home-grid.hidden { display: none; }
 
     .home-card {
-      background: rgba(19, 37, 72, 0.82);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: transparent;
+      border: 0;
       border-radius: 12px;
-      padding: 10px;
+      padding: 6px;
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 6px;
+      aspect-ratio: 1;
     }
 
     .home-card img {
       width: 100%;
-      aspect-ratio: 2 / 1;
+      aspect-ratio: 1;
       object-fit: cover;
       border-radius: 8px;
       display: block;
@@ -111,22 +113,20 @@
 
     .home-card h2 {
       margin: 0;
-      font-size: 1.05rem;
+      font-size: 0.86rem;
+      text-align: center;
     }
 
     .home-card p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.9rem;
-      line-height: 1.35;
-      flex: 1;
+      display: none;
     }
 
     .btn {
       border: 0;
       border-radius: 9px;
-      padding: 10px 12px;
+      padding: 7px 10px;
       font-weight: 700;
+      font-size: 0.82rem;
       color: #111827;
       cursor: pointer;
       background: linear-gradient(90deg, var(--accent), var(--accent-2));
@@ -137,27 +137,30 @@
       border: 1px solid var(--line);
       border-radius: 16px;
       padding: 14px;
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 10px;
+      align-content: start;
       overflow: auto;
     }
 
     .side h2 {
       margin: 0;
       font-size: 1.1rem;
+      grid-column: 1 / -1;
     }
 
     .game-item {
-      display: grid;
-      grid-template-columns: 84px 1fr;
-      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
       border: 1px solid rgba(255, 255, 255, 0.10);
       border-radius: 12px;
       background: rgba(0, 0, 0, 0.18);
-      padding: 8px;
+      padding: 6px;
+      aspect-ratio: 1;
       cursor: pointer;
-      text-align: left;
+      text-align: center;
       color: inherit;
     }
 
@@ -176,15 +179,12 @@
 
     .game-item-title {
       margin: 0;
-      font-size: 0.98rem;
+      font-size: 0.8rem;
       font-weight: 700;
     }
 
     .game-item-desc {
-      margin: 4px 0 0;
-      color: var(--muted);
-      font-size: 0.86rem;
-      line-height: 1.35;
+      display: none;
     }
 
     @media (max-width: 900px) {
