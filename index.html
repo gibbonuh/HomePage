@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Emmett's Game Zone</title>
+  <title>Game Portal</title>
   <style>
     :root {
       --text: #f8fafc;
@@ -29,7 +29,7 @@
     }
 
     .page {
-      width: min(1200px, 95vw);
+      width: min(1240px, 95vw);
       margin: 20px auto;
       display: grid;
       grid-template-columns: minmax(0, 1fr) 320px;
@@ -37,7 +37,7 @@
       min-height: calc(100vh - 40px);
     }
 
-    .player-panel {
+    .main-panel {
       background: linear-gradient(145deg, var(--panel), var(--panel-2));
       border: 1px solid var(--line);
       border-radius: 16px;
@@ -48,51 +48,88 @@
       min-height: 0;
     }
 
-    .topbar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    h1 {
+    .topbar h1 {
       margin: 0;
-      font-size: clamp(1.3rem, 2vw, 1.8rem);
+      font-size: clamp(1.35rem, 2vw, 1.9rem);
       letter-spacing: 0.02em;
     }
 
     .sub {
-      margin: 2px 0 0;
+      margin: 4px 0 0;
       color: var(--muted);
       font-size: 0.95rem;
-    }
-
-    .btn {
-      border: 0;
-      border-radius: 10px;
-      padding: 10px 14px;
-      font-weight: 700;
-      color: #111827;
-      cursor: pointer;
-      background: linear-gradient(90deg, var(--accent), var(--accent-2));
     }
 
     .viewer {
       background: #000;
       border-radius: 12px;
       overflow: hidden;
-      flex: 1;
-      min-height: 68vh;
+      min-height: 70vh;
       border: 1px solid rgba(255, 255, 255, 0.14);
+      position: relative;
     }
 
     #gameFrame {
       width: 100%;
       height: 100%;
       border: 0;
-      display: block;
+      display: none;
       background: #000;
+    }
+
+    .home-grid {
+      position: absolute;
+      inset: 0;
+      padding: 16px;
+      overflow: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+      align-content: start;
+      background: rgba(0, 0, 0, 0.38);
+    }
+
+    .home-grid.hidden { display: none; }
+
+    .home-card {
+      background: rgba(19, 37, 72, 0.82);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .home-card img {
+      width: 100%;
+      aspect-ratio: 2 / 1;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .home-card h2 {
+      margin: 0;
+      font-size: 1.05rem;
+    }
+
+    .home-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.35;
+      flex: 1;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 9px;
+      padding: 10px 12px;
+      font-weight: 700;
+      color: #111827;
+      cursor: pointer;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
     }
 
     .side {
@@ -151,33 +188,24 @@
     }
 
     @media (max-width: 900px) {
-      .page {
-        grid-template-columns: 1fr;
-      }
-
-      .viewer {
-        min-height: 60vh;
-      }
-
-      .side {
-        max-height: 42vh;
-      }
+      .page { grid-template-columns: 1fr; }
+      .viewer { min-height: 60vh; }
+      .side { max-height: 42vh; }
     }
   </style>
 </head>
 <body>
   <div class="page">
-    <section class="player-panel">
+    <section class="main-panel">
       <div class="topbar">
-        <div>
-          <h1 id="currentTitle">Emmett's Game Zone</h1>
-          <p class="sub" id="currentDesc">Choose a game from the right and it loads right here in this page.</p>
-        </div>
-        <button class="btn" id="fullBtn" type="button">Fullscreen</button>
+        <h1 id="currentTitle">Game Portal</h1>
+        <p class="sub" id="currentDesc">Choose a game below or from the sidebar to play in this page.</p>
       </div>
 
-      <div class="viewer" id="viewer">
+      <div class="viewer">
         <iframe id="gameFrame" title="Game Player" allow="fullscreen; autoplay"></iframe>
+
+        <div class="home-grid" id="homeGrid"></div>
       </div>
     </section>
 
@@ -207,13 +235,30 @@
 
       var list = document.getElementById("gameList");
       var frame = document.getElementById("gameFrame");
+      var homeGrid = document.getElementById("homeGrid");
       var currentTitle = document.getElementById("currentTitle");
       var currentDesc = document.getElementById("currentDesc");
-      var fullBtn = document.getElementById("fullBtn");
-      var viewer = document.getElementById("viewer");
-      var activeId = "";
 
-      function renderList() {
+      function setActive(id) {
+        var items = document.querySelectorAll(".game-item");
+        items.forEach(function (el) {
+          el.classList.toggle("active", el.dataset.id === id);
+        });
+      }
+
+      function openGame(id) {
+        var game = games.find(function (g) { return g.id === id; });
+        if (!game) return;
+
+        frame.src = game.file;
+        frame.style.display = "block";
+        homeGrid.classList.add("hidden");
+        currentTitle.textContent = game.title;
+        currentDesc.textContent = game.desc;
+        setActive(id);
+      }
+
+      function renderSidebar() {
         games.forEach(function (game) {
           var item = document.createElement("button");
           item.className = "game-item";
@@ -225,42 +270,37 @@
               '<p class="game-item-title">' + game.title + '</p>' +
               '<p class="game-item-desc">' + game.desc + '</p>' +
             '</div>';
-
           item.addEventListener("click", function () {
-            loadGame(game.id);
+            openGame(game.id);
           });
-
           list.appendChild(item);
         });
       }
 
-      function loadGame(id) {
-        var game = games.find(function (g) { return g.id === id; });
-        if (!game) return;
+      function renderHomeCards() {
+        games.forEach(function (game) {
+          var card = document.createElement("article");
+          card.className = "home-card";
+          card.innerHTML =
+            '<img src="' + game.cover + '" alt="' + game.title + ' cover">' +
+            '<h2>' + game.title + '</h2>' +
+            '<p>' + game.desc + '</p>';
 
-        activeId = id;
-        frame.src = game.file;
-        currentTitle.textContent = game.title;
-        currentDesc.textContent = game.desc;
+          var playBtn = document.createElement("button");
+          playBtn.className = "btn";
+          playBtn.type = "button";
+          playBtn.textContent = "Play";
+          playBtn.addEventListener("click", function () {
+            openGame(game.id);
+          });
 
-        var items = document.querySelectorAll(".game-item");
-        items.forEach(function (el) {
-          el.classList.toggle("active", el.dataset.id === id);
+          card.appendChild(playBtn);
+          homeGrid.appendChild(card);
         });
       }
 
-      fullBtn.addEventListener("click", async function () {
-        try {
-          if (!document.fullscreenElement) {
-            await viewer.requestFullscreen();
-          }
-        } catch (e) {
-          // Ignore fullscreen rejections.
-        }
-      });
-
-      renderList();
-      loadGame(games[0].id);
+      renderSidebar();
+      renderHomeCards();
     })();
   </script>
 </body>
