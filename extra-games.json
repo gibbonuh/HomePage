@@ -376,5 +376,75 @@
     "file": "./games/fancypantsadventures/index.html",
     "cover": "./games/fancypantsadventures/fancypantsadventure.png",
     "desc": "Play Fancypantsadventures."
+  },
+  {
+    "id": "extra-1",
+    "title": "1",
+    "file": "./games/1/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=1",
+    "desc": "Play 1."
+  },
+  {
+    "id": "extra-100ng",
+    "title": "100ng",
+    "file": "./games/100ng/index.html",
+    "cover": "./games/100ng/100ng-logo.png",
+    "desc": "Play 100ng."
+  },
+  {
+    "id": "extra-1v1lol",
+    "title": "1v1lol",
+    "file": "./games/1v1lol/index.html",
+    "cover": "./games/1v1lol/splash.png",
+    "desc": "Play 1v1lol."
+  },
+  {
+    "id": "extra-1v1space",
+    "title": "1v1space",
+    "file": "./games/1v1space/index.html",
+    "cover": "./games/1v1space/splash.png",
+    "desc": "Play 1v1space."
+  },
+  {
+    "id": "extra-2020-game",
+    "title": "2020 Game",
+    "file": "./games/2020-game/index.html",
+    "cover": "./games/2020-game/icon.jpeg",
+    "desc": "Play 2020 Game."
+  },
+  {
+    "id": "extra-2048-multitask",
+    "title": "2048 Multitask",
+    "file": "./games/2048-multitask/index.html",
+    "cover": "./games/2048-multitask/splash.png",
+    "desc": "Play 2048 Multitask."
+  },
+  {
+    "id": "extra-8ball-billards-classic",
+    "title": "8ball Billards Classic",
+    "file": "./games/8ball-billards-classic/index.html",
+    "cover": "./games/8ball-billards-classic/icon.png",
+    "desc": "Play 8ball Billards Classic."
+  },
+  {
+    "id": "extra-9007199254740992",
+    "title": "9007199254740992",
+    "file": "./games/9007199254740992/index.html",
+    "cover": "./games/9007199254740992/logo-4.png",
+    "desc": "Play 9007199254740992."
+  },
+  {
+    "id": "extra-dogeminer",
+    "title": "Dogeminer",
+    "file": "./games/DogeMiner/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=DogeMiner",
+    "desc": "Play Dogeminer."
+  },
+  {
+    "id": "extra-hexgl",
+    "title": "Hexgl",
+    "file": "./games/HexGL/index.html",
+    "cover": "./games/HexGL/icon.png",
+    "desc": "Play Hexgl."
   }
 ]
