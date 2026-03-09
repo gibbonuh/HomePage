@@ -1076,5 +1076,75 @@
     "file": "./games/fake-virus/index.html",
     "cover": "./games/fake-virus/icon.png",
     "desc": "Play Fake Virus."
+  },
+  {
+    "id": "extra-fbwg",
+    "title": "Fbwg",
+    "file": "./games/fbwg/index.html",
+    "cover": "./games/fbwg/icon-60x60.png",
+    "desc": "Play Fbwg."
+  },
+  {
+    "id": "extra-finns-fantastic-food-machine",
+    "title": "Finns Fantastic Food Machine",
+    "file": "./games/finns-fantastic-food-machine/index.html",
+    "cover": "./games/finns-fantastic-food-machine/icon.png",
+    "desc": "Play Finns Fantastic Food Machine."
+  },
+  {
+    "id": "extra-fireboywatergirlforesttemple",
+    "title": "Fireboywatergirlforesttemple",
+    "file": "./games/fireboywatergirlforesttemple/index.html",
+    "cover": "./games/fireboywatergirlforesttemple/icon-60x60.png",
+    "desc": "Play Fireboywatergirlforesttemple."
+  },
+  {
+    "id": "extra-fireice",
+    "title": "Fireice",
+    "file": "./games/fireice/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=fireice",
+    "desc": "Play Fireice."
+  },
+  {
+    "id": "extra-firewater",
+    "title": "Firewater",
+    "file": "./games/firewater/index.html",
+    "cover": "./games/firewater/icon-60x60.png",
+    "desc": "Play Firewater."
+  },
+  {
+    "id": "extra-flappy-2048",
+    "title": "Flappy 2048",
+    "file": "./games/flappy-2048/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=flappy-2048",
+    "desc": "Play Flappy 2048."
+  },
+  {
+    "id": "extra-flappy-defense",
+    "title": "Flappy Defense",
+    "file": "./games/flappy-defense/index.html",
+    "cover": "./games/flappy-defense/icon.png",
+    "desc": "Play Flappy Defense."
+  },
+  {
+    "id": "extra-flappybird",
+    "title": "Flappybird",
+    "file": "./games/flappybird/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=flappybird",
+    "desc": "Play Flappybird."
+  },
+  {
+    "id": "extra-flashtetris",
+    "title": "Flashtetris",
+    "file": "./games/flashtetris/index.html",
+    "cover": "./games/flashtetris/flashtetris.png",
+    "desc": "Play Flashtetris."
+  },
+  {
+    "id": "extra-flippy-fish",
+    "title": "Flippy Fish",
+    "file": "./games/flippy-fish/index.html",
+    "cover": "./games/flippy-fish/2022_10_28_0jt_Kleki.png",
+    "desc": "Play Flippy Fish."
   }
 ]
