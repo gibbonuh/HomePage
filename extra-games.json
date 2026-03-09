@@ -1,0 +1,93 @@
+[
+  {
+    "id": "extra-2048",
+    "title": "2048",
+    "file": "./games/2048/index.html",
+    "cover": "./games/2048/thumb.png",
+    "desc": "Play 2048."
+  },
+  {
+    "id": "extra-chrome-dino",
+    "title": "Chrome Dino",
+    "file": "./games/chrome-dino/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=chrome-dino",
+    "desc": "Play Chrome Dino."
+  },
+  {
+    "id": "extra-flappy-bird",
+    "title": "Flappy Bird",
+    "file": "./games/flappy-bird/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=flappy-bird",
+    "desc": "Play Flappy Bird."
+  },
+  {
+    "id": "extra-doodle-jump",
+    "title": "Doodle Jump",
+    "file": "./games/doodle-jump/index.html",
+    "cover": "./games/doodle-jump/doodle.png",
+    "desc": "Play Doodle Jump."
+  },
+  {
+    "id": "extra-hextris",
+    "title": "Hextris",
+    "file": "./games/hextris/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=hextris",
+    "desc": "Play Hextris."
+  },
+  {
+    "id": "extra-minesweeper",
+    "title": "Minesweeper",
+    "file": "./games/minesweeper/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=minesweeper",
+    "desc": "Play Minesweeper."
+  },
+  {
+    "id": "extra-pacman",
+    "title": "Pacman",
+    "file": "./games/pacman/index.html",
+    "cover": "./games/pacman/favicon.png",
+    "desc": "Play Pacman."
+  },
+  {
+    "id": "extra-slope",
+    "title": "Slope",
+    "file": "./games/slope/index.html",
+    "cover": "./games/slope/slope4.jpeg",
+    "desc": "Play Slope."
+  },
+  {
+    "id": "extra-run-3",
+    "title": "Run 3",
+    "file": "./games/run-3/index.html",
+    "cover": "./games/run-3/icon.jpg",
+    "desc": "Play Run 3."
+  },
+  {
+    "id": "extra-cookie-clicker",
+    "title": "Cookie Clicker",
+    "file": "./games/cookie-clicker/index.html",
+    "cover": "./games/cookie-clicker/icon.jpg",
+    "desc": "Play Cookie Clicker."
+  },
+  {
+    "id": "extra-crossyroad",
+    "title": "Crossyroad",
+    "file": "./games/crossyroad/index.html",
+    "cover": "./games/crossyroad/crossyroad.png",
+    "desc": "Play Crossyroad."
+  },
+  {
+    "id": "extra-getaway-shootout",
+    "title": "Getaway Shootout",
+    "file": "./games/getaway-shootout/index.html",
+    "cover": "./games/getaway-shootout/icon.jpg",
+    "desc": "Play Getaway Shootout."
+  },
+  {
+    "id": "extra-paper-io-2",
+    "title": "Paper.io 2",
+    "file": "./paper-io-2.html",
+    "cover": "https://placehold.co/600x600/0f3d52/e5e7eb?text=Paper.io+2",
+    "desc": "Play Paper.io 2."
+  }
+]

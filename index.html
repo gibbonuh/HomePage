@@ -199,6 +199,14 @@
       grid-column: 1 / -1;
     }
 
+    #gameItems {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      align-content: start;
+    }
+
     .game-item {
       display: flex;
       flex-direction: column;
@@ -264,12 +272,13 @@
 
     <aside class="side" id="gameList">
       <h2>Games</h2>
+      <div id="gameItems"></div>
     </aside>
   </div>
 
   <script>
     (function () {
-      var games = [
+      var baseGames = [
         {
           id: "gdlite",
           title: "Geometry Dash Lite",
@@ -288,25 +297,27 @@
           id: "granny",
           title: "Granny",
           file: "./granny.html",
-          cover: "https://play.google.com/store/apps/details?id=com.dvloper.granny",
+          cover: "https://placehold.co/600x600/1f2937/e5e7eb?text=Granny",
           desc: "Survive and escape while avoiding danger in a tense horror challenge."
         },
         {
           id: "minecraft",
           title: "Minecraft",
           file: "./minecraft.html",
-          cover: "https://www.hiclipart.com/free-transparent-background-png-clipart-vghbs",
+          cover: "https://placehold.co/600x600/14532d/e5e7eb?text=Minecraft",
           desc: "Build, explore, and craft in an open sandbox adventure."
         }
       ];
 
       var list = document.getElementById("gameList");
+      var gameItems = document.getElementById("gameItems");
       var frame = document.getElementById("gameFrame");
       var homeGrid = document.getElementById("homeGrid");
       var currentTitle = document.getElementById("currentTitle");
       var currentDesc = document.getElementById("currentDesc");
       var viewBtn = document.getElementById("viewBtn");
       var currentGameFile = "";
+      var games = baseGames.slice();
 
       function setActive(id) {
         var items = document.querySelectorAll(".game-item");
@@ -348,6 +359,7 @@
       }
 
       function renderSidebar() {
+        gameItems.innerHTML = "";
         games.forEach(function (game) {
           var item = document.createElement("button");
           item.className = "game-item";
@@ -362,12 +374,12 @@
           item.addEventListener("click", function () {
             openGame(game.id);
           });
-          list.appendChild(item);
+          gameItems.appendChild(item);
         });
       }
 
       function renderHomeCards() {
-        games.forEach(function (game) {
+        baseGames.forEach(function (game) {
           var card = document.createElement("article");
           card.className = "home-card";
           card.innerHTML =
@@ -388,9 +400,30 @@
         });
       }
 
-      renderSidebar();
+      function mergeExtraGames(extraGames) {
+        var seen = {};
+        games.forEach(function (g) { seen[g.file] = true; });
+        extraGames.forEach(function (g) {
+          if (!seen[g.file]) {
+            games.push(g);
+            seen[g.file] = true;
+          }
+        });
+      }
+
       renderHomeCards();
+      renderSidebar();
       viewBtn.addEventListener("click", activateBestView);
+
+      fetch("./extra-games.json")
+        .then(function (res) { return res.json(); })
+        .then(function (extraGames) {
+          mergeExtraGames(extraGames);
+          renderSidebar();
+        })
+        .catch(function () {
+          // Base games still work if batch file is missing.
+        });
     })();
   </script>
 </body>
