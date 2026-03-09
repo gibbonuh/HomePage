@@ -1776,5 +1776,75 @@
     "file": "./games/papas-pancakeria/index.html",
     "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-pancakeria",
     "desc": "Play Papas Pancakeria."
+  },
+  {
+    "id": "extra-papas-pizzeria",
+    "title": "Papas Pizzeria",
+    "file": "./games/papas-pizzeria/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-pizzeria",
+    "desc": "Play Papas Pizzeria."
+  },
+  {
+    "id": "extra-papas-sushiria",
+    "title": "Papas Sushiria",
+    "file": "./games/papas-sushiria/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-sushiria",
+    "desc": "Play Papas Sushiria."
+  },
+  {
+    "id": "extra-papas-wingeria",
+    "title": "Papas Wingeria",
+    "file": "./games/papas-wingeria/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-wingeria",
+    "desc": "Play Papas Wingeria."
+  },
+  {
+    "id": "extra-papasburgeria",
+    "title": "Papasburgeria",
+    "file": "./games/papasburgeria/index.html",
+    "cover": "./games/papasburgeria/splash.jpg",
+    "desc": "Play Papasburgeria."
+  },
+  {
+    "id": "extra-papaspizzaria",
+    "title": "Papaspizzaria",
+    "file": "./games/papaspizzaria/index.html",
+    "cover": "./games/papaspizzaria/papaspizzaria.jpg",
+    "desc": "Play Papaspizzaria."
+  },
+  {
+    "id": "extra-paperio2",
+    "title": "Paperio2",
+    "file": "./games/paperio2/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=paperio2",
+    "desc": "Play Paperio2."
+  },
+  {
+    "id": "extra-papery-planes",
+    "title": "Papery Planes",
+    "file": "./games/papery-planes/index.html",
+    "cover": "./games/papery-planes/splash.jpg",
+    "desc": "Play Papery Planes."
+  },
+  {
+    "id": "extra-particle-clicker",
+    "title": "Particle Clicker",
+    "file": "./games/particle-clicker/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=particle-clicker",
+    "desc": "Play Particle Clicker."
+  },
+  {
+    "id": "extra-particleclicker",
+    "title": "Particleclicker",
+    "file": "./games/particleclicker/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=particleclicker",
+    "desc": "Play Particleclicker."
+  },
+  {
+    "id": "extra-path-finder",
+    "title": "Path Finder",
+    "file": "./games/path-finder/index.html",
+    "cover": "./games/path-finder/tick.gif",
+    "desc": "Play Path Finder."
   }
 ]
