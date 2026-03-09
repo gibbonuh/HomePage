@@ -1496,5 +1496,75 @@
     "file": "./games/linquest/index.html",
     "cover": "./games/linquest/icon.jpg",
     "desc": "Play Linquest."
+  },
+  {
+    "id": "extra-madalin-stunt-cars-2",
+    "title": "Madalin Stunt Cars 2",
+    "file": "./games/madalin-stunt-cars-2/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=madalin-stunt-cars-2",
+    "desc": "Play Madalin Stunt Cars 2."
+  },
+  {
+    "id": "extra-makeitmeme",
+    "title": "Makeitmeme",
+    "file": "./games/makeitmeme/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=makeitmeme",
+    "desc": "Play Makeitmeme."
+  },
+  {
+    "id": "extra-mario",
+    "title": "Mario",
+    "file": "./games/mario/index.html",
+    "cover": "./games/mario/icon.png",
+    "desc": "Play Mario."
+  },
+  {
+    "id": "extra-marvinspectrum",
+    "title": "Marvinspectrum",
+    "file": "./games/marvinspectrum/index.html",
+    "cover": "./games/marvinspectrum/marvinspectrum.png",
+    "desc": "Play Marvinspectrum."
+  },
+  {
+    "id": "extra-matrixrampage",
+    "title": "Matrixrampage",
+    "file": "./games/matrixrampage/index.html",
+    "cover": "./games/matrixrampage/matrixrampage.jpg",
+    "desc": "Play Matrixrampage."
+  },
+  {
+    "id": "extra-mc1-5-2",
+    "title": "Mc1.5.2",
+    "file": "./games/mc1.5.2/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=mc1.5.2",
+    "desc": "Play Mc1.5.2."
+  },
+  {
+    "id": "extra-mcbeta0-30",
+    "title": "Mcbeta0.30",
+    "file": "./games/mcbeta0.30/index.html",
+    "cover": "./games/mcbeta0.30/bg_main.png",
+    "desc": "Play Mcbeta0.30."
+  },
+  {
+    "id": "extra-mcbeta1-3",
+    "title": "Mcbeta1.3",
+    "file": "./games/mcbeta1.3/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=mcbeta1.3",
+    "desc": "Play Mcbeta1.3."
+  },
+  {
+    "id": "extra-meat-boy",
+    "title": "Meat Boy",
+    "file": "./games/meat-boy/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=meat-boy",
+    "desc": "Play Meat Boy."
+  },
+  {
+    "id": "extra-meme2048",
+    "title": "Meme2048",
+    "file": "./games/meme2048/index.html",
+    "cover": "./games/meme2048/icon.png",
+    "desc": "Play Meme2048."
   }
 ]
