@@ -1636,5 +1636,75 @@
     "file": "./games/motox3m-spooky/index.html",
     "cover": "./games/motox3m-spooky/splash.jpeg",
     "desc": "Play Motox3m Spooky."
+  },
+  {
+    "id": "extra-motox3m-winter",
+    "title": "Motox3m Winter",
+    "file": "./games/motox3m-winter/index.html",
+    "cover": "./games/motox3m-winter/download.jpeg",
+    "desc": "Play Motox3m Winter."
+  },
+  {
+    "id": "extra-motox3m2",
+    "title": "Motox3m2",
+    "file": "./games/motox3m2/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=motox3m2",
+    "desc": "Play Motox3m2."
+  },
+  {
+    "id": "extra-motox3mwinter",
+    "title": "Motox3mwinter",
+    "file": "./games/motox3mwinter/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=motox3mwinter",
+    "desc": "Play Motox3mwinter."
+  },
+  {
+    "id": "extra-my-friend-pedro",
+    "title": "My Friend Pedro",
+    "file": "./games/my-friend-pedro/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=my-friend-pedro",
+    "desc": "Play My Friend Pedro."
+  },
+  {
+    "id": "extra-n-gon",
+    "title": "N Gon",
+    "file": "./games/n-gon/index.html",
+    "cover": "./games/n-gon/bot.png",
+    "desc": "Play N Gon."
+  },
+  {
+    "id": "extra-ninja",
+    "title": "Ninja",
+    "file": "./games/ninja/index.html",
+    "cover": "./games/ninja/logo1.png",
+    "desc": "Play Ninja."
+  },
+  {
+    "id": "extra-ninjavsevilcorp",
+    "title": "Ninjavsevilcorp",
+    "file": "./games/ninjavsevilcorp/index.html",
+    "cover": "./games/ninjavsevilcorp/splash.png",
+    "desc": "Play Ninjavsevilcorp."
+  },
+  {
+    "id": "extra-ns-shaft",
+    "title": "Ns Shaft",
+    "file": "./games/ns-shaft/index.html",
+    "cover": "./games/ns-shaft/icon.png",
+    "desc": "Play Ns Shaft."
+  },
+  {
+    "id": "extra-one-screen-run",
+    "title": "One Screen Run",
+    "file": "./games/one-screen-run/index.html",
+    "cover": "./games/one-screen-run/icon.jpg",
+    "desc": "Play One Screen Run."
+  },
+  {
+    "id": "extra-one-screen-run-2",
+    "title": "One Screen Run 2",
+    "file": "./games/one-screen-run-2/index.html",
+    "cover": "./games/one-screen-run-2/icon.png",
+    "desc": "Play One Screen Run 2."
   }
 ]
