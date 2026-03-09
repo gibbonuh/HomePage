@@ -516,5 +516,75 @@
     "file": "./games/anti-terrorist-rush/index.html",
     "cover": "./games/anti-terrorist-rush/icon.png",
     "desc": "Play Anti Terrorist Rush."
+  },
+  {
+    "id": "extra-arcade-wizard",
+    "title": "Arcade Wizard",
+    "file": "./games/arcade-wizard/index.html",
+    "cover": "./games/arcade-wizard/icon.png",
+    "desc": "Play Arcade Wizard."
+  },
+  {
+    "id": "extra-asciispace",
+    "title": "Asciispace",
+    "file": "./games/asciispace/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=asciispace",
+    "desc": "Play Asciispace."
+  },
+  {
+    "id": "extra-aspiring-artist",
+    "title": "Aspiring Artist",
+    "file": "./games/aspiring-artist/index.html",
+    "cover": "./games/aspiring-artist/icon.png",
+    "desc": "Play Aspiring Artist."
+  },
+  {
+    "id": "extra-awesome-tanks-2",
+    "title": "Awesome Tanks 2",
+    "file": "./games/awesome-tanks-2/index.html",
+    "cover": "./games/awesome-tanks-2/icon.png",
+    "desc": "Play Awesome Tanks 2."
+  },
+  {
+    "id": "extra-baldis-basics",
+    "title": "Baldis Basics",
+    "file": "./games/baldis-basics/index.html",
+    "cover": "./games/baldis-basics/icon.png",
+    "desc": "Play Baldis Basics."
+  },
+  {
+    "id": "extra-basket-bros-io",
+    "title": "Basket Bros Io",
+    "file": "./games/basket-bros-io/index.html",
+    "cover": "./games/basket-bros-io/icon.jpg",
+    "desc": "Play Basket Bros Io."
+  },
+  {
+    "id": "extra-basketball-io",
+    "title": "Basketball Io",
+    "file": "./games/basketball-io/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=basketball-io",
+    "desc": "Play Basketball Io."
+  },
+  {
+    "id": "extra-basketball-legends-2020",
+    "title": "Basketball Legends 2020",
+    "file": "./games/basketball-legends-2020/index.html",
+    "cover": "./games/basketball-legends-2020/icon.png",
+    "desc": "Play Basketball Legends 2020."
+  },
+  {
+    "id": "extra-basketball-stars",
+    "title": "Basketball Stars",
+    "file": "./games/basketball-stars/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=basketball-stars",
+    "desc": "Play Basketball Stars."
+  },
+  {
+    "id": "extra-battleforgondor",
+    "title": "Battleforgondor",
+    "file": "./games/battleforgondor/index.html",
+    "cover": "./games/battleforgondor/3557.jpg",
+    "desc": "Play Battleforgondor."
   }
 ]
