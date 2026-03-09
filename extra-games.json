@@ -866,5 +866,75 @@
     "file": "./games/cuttherope2/index.html",
     "cover": "./games/cuttherope2/ctr2.png",
     "desc": "Play Cuttherope2."
+  },
+  {
+    "id": "extra-dante",
+    "title": "Dante",
+    "file": "./games/dante/index.html",
+    "cover": "./games/dante/splash.png",
+    "desc": "Play Dante."
+  },
+  {
+    "id": "extra-deal-or-no-deal",
+    "title": "Deal Or No Deal",
+    "file": "./games/deal-or-no-deal/index.html",
+    "cover": "./games/deal-or-no-deal/index.jpg",
+    "desc": "Play Deal Or No Deal."
+  },
+  {
+    "id": "extra-death-run-3d",
+    "title": "Death Run 3d",
+    "file": "./games/death-run-3d/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=death-run-3d",
+    "desc": "Play Death Run 3d."
+  },
+  {
+    "id": "extra-death-soul",
+    "title": "Death Soul",
+    "file": "./games/death-soul/index.html",
+    "cover": "./games/death-soul/icon-256.png",
+    "desc": "Play Death Soul."
+  },
+  {
+    "id": "extra-deathrun",
+    "title": "Deathrun",
+    "file": "./games/deathrun/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=deathrun",
+    "desc": "Play Deathrun."
+  },
+  {
+    "id": "extra-defend-the-tank",
+    "title": "Defend The Tank",
+    "file": "./games/defend-the-tank/index.html",
+    "cover": "./games/defend-the-tank/landscape.jpg",
+    "desc": "Play Defend The Tank."
+  },
+  {
+    "id": "extra-dino",
+    "title": "Dino",
+    "file": "./games/dino/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=dino",
+    "desc": "Play Dino."
+  },
+  {
+    "id": "extra-dodge",
+    "title": "Dodge",
+    "file": "./games/dodge/index.html",
+    "cover": "./games/dodge/icon.png",
+    "desc": "Play Dodge."
+  },
+  {
+    "id": "extra-doge-miner-2",
+    "title": "Doge Miner 2",
+    "file": "./games/doge-miner-2/index.html",
+    "cover": "./games/doge-miner-2/dogesans-numbers_0.png",
+    "desc": "Play Doge Miner 2."
+  },
+  {
+    "id": "extra-doge-mining-simulator",
+    "title": "Doge Mining Simulator",
+    "file": "./games/doge-mining-simulator/index.html",
+    "cover": "./games/doge-mining-simulator/icon.png",
+    "desc": "Play Doge Mining Simulator."
   }
 ]
