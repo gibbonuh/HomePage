@@ -796,5 +796,75 @@
     "file": "./games/color-switch-2-challenges/index.html",
     "cover": "./games/color-switch-2-challenges/icon.png",
     "desc": "Play Color Switch 2 Challenges."
+  },
+  {
+    "id": "extra-cookieclicker",
+    "title": "Cookieclicker",
+    "file": "./games/cookieclicker/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=cookieclicker",
+    "desc": "Play Cookieclicker."
+  },
+  {
+    "id": "extra-craftmine",
+    "title": "Craftmine",
+    "file": "./games/craftmine/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=craftmine",
+    "desc": "Play Craftmine."
+  },
+  {
+    "id": "extra-creativekillchamber",
+    "title": "Creativekillchamber",
+    "file": "./games/creativekillchamber/index.html",
+    "cover": "./games/creativekillchamber/creativekillchamber.jpg",
+    "desc": "Play Creativekillchamber."
+  },
+  {
+    "id": "extra-crowd-city-2",
+    "title": "Crowd City 2",
+    "file": "./games/crowd city 2/index.html",
+    "cover": "./games/crowd city 2/logo.jpg",
+    "desc": "Play Crowd City 2."
+  },
+  {
+    "id": "extra-csgo-clicker",
+    "title": "Csgo Clicker",
+    "file": "./games/csgo-clicker/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=csgo-clicker",
+    "desc": "Play Csgo Clicker."
+  },
+  {
+    "id": "extra-ctr",
+    "title": "Ctr",
+    "file": "./games/ctr/index.html",
+    "cover": "./games/ctr/logo.png",
+    "desc": "Play Ctr."
+  },
+  {
+    "id": "extra-ctr-holiday",
+    "title": "Ctr Holiday",
+    "file": "./games/ctr-holiday/index.html",
+    "cover": "./games/ctr-holiday/Holiday_Gift.webp",
+    "desc": "Play Ctr Holiday."
+  },
+  {
+    "id": "extra-ctr-tr",
+    "title": "Ctr Tr",
+    "file": "./games/ctr-tr/index.html",
+    "cover": "./games/ctr-tr/logo.png",
+    "desc": "Play Ctr Tr."
+  },
+  {
+    "id": "extra-cupcake2048",
+    "title": "Cupcake2048",
+    "file": "./games/cupcake2048/index.html",
+    "cover": "./games/cupcake2048/favicon.png",
+    "desc": "Play Cupcake2048."
+  },
+  {
+    "id": "extra-cuttherope2",
+    "title": "Cuttherope2",
+    "file": "./games/cuttherope2/index.html",
+    "cover": "./games/cuttherope2/ctr2.png",
+    "desc": "Play Cuttherope2."
   }
 ]
