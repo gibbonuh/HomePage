@@ -2266,5 +2266,75 @@
     "file": "./games/stack/index.html",
     "cover": "./games/stack/featured-stack.jpg",
     "desc": "Play Stack."
+  },
+  {
+    "id": "extra-stack-bump-3d",
+    "title": "Stack Bump 3d",
+    "file": "./games/stack-bump-3d/index.html",
+    "cover": "./games/stack-bump-3d/thumbnail.jpg",
+    "desc": "Play Stack Bump 3d."
+  },
+  {
+    "id": "extra-station-141",
+    "title": "Station 141",
+    "file": "./games/station-141/index.html",
+    "cover": "./games/station-141/icon.png",
+    "desc": "Play Station 141."
+  },
+  {
+    "id": "extra-stealingthediamond",
+    "title": "Stealingthediamond",
+    "file": "./games/stealingthediamond/index.html",
+    "cover": "./games/stealingthediamond/stealingthediamond.jpg",
+    "desc": "Play Stealingthediamond."
+  },
+  {
+    "id": "extra-stick-archers-battle",
+    "title": "Stick Archers Battle",
+    "file": "./games/stick-archers-battle/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=stick-archers-battle",
+    "desc": "Play Stick Archers Battle."
+  },
+  {
+    "id": "extra-stickclimb",
+    "title": "Stickclimb",
+    "file": "./games/stickclimb/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=stickclimb",
+    "desc": "Play Stickclimb."
+  },
+  {
+    "id": "extra-stickman",
+    "title": "Stickman",
+    "file": "./games/stickman/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=stickman",
+    "desc": "Play Stickman."
+  },
+  {
+    "id": "extra-stickman-boost",
+    "title": "Stickman Boost",
+    "file": "./games/stickman-boost/index.html",
+    "cover": "./games/stickman-boost/icon-256.png",
+    "desc": "Play Stickman Boost."
+  },
+  {
+    "id": "extra-stickman-dismount",
+    "title": "Stickman Dismount",
+    "file": "./games/stickman-dismount/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=stickman-dismount",
+    "desc": "Play Stickman Dismount."
+  },
+  {
+    "id": "extra-stickman-epic-battle",
+    "title": "Stickman Epic Battle",
+    "file": "./games/stickman-epic-battle/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=stickman-epic-battle",
+    "desc": "Play Stickman Epic Battle."
+  },
+  {
+    "id": "extra-stickman-golf",
+    "title": "Stickman Golf",
+    "file": "./games/stickman-golf/index.html",
+    "cover": "./games/stickman-golf/splash.png",
+    "desc": "Play Stickman Golf."
   }
 ]
