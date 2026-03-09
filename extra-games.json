@@ -2126,5 +2126,75 @@
     "file": "./games/slither/index.html",
     "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=slither",
     "desc": "Play Slither."
+  },
+  {
+    "id": "extra-slither-snake",
+    "title": "Slither Snake",
+    "file": "./games/slither snake/index.html",
+    "cover": "./games/slither snake/icon-256.png",
+    "desc": "Play Slither Snake."
+  },
+  {
+    "id": "extra-slope-ball",
+    "title": "Slope Ball",
+    "file": "./games/slope-ball/index.html",
+    "cover": "./games/slope-ball/icon.jpg",
+    "desc": "Play Slope Ball."
+  },
+  {
+    "id": "extra-slope2",
+    "title": "Slope2",
+    "file": "./games/slope2/index.html",
+    "cover": "./games/slope2/fullscreen-button.png",
+    "desc": "Play Slope2."
+  },
+  {
+    "id": "extra-sm64",
+    "title": "Sm64",
+    "file": "./games/sm64/index.html",
+    "cover": "./games/sm64/logo.png",
+    "desc": "Play Sm64."
+  },
+  {
+    "id": "extra-smashkarts",
+    "title": "Smashkarts",
+    "file": "./games/smashkarts/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=smashkarts",
+    "desc": "Play Smashkarts."
+  },
+  {
+    "id": "extra-smokingbarrels",
+    "title": "Smokingbarrels",
+    "file": "./games/smokingbarrels/index.html",
+    "cover": "./games/smokingbarrels/smokingbarrels.jpg",
+    "desc": "Play Smokingbarrels."
+  },
+  {
+    "id": "extra-snake",
+    "title": "Snake",
+    "file": "./games/snake/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=snake",
+    "desc": "Play Snake."
+  },
+  {
+    "id": "extra-snowbattle",
+    "title": "Snowbattle",
+    "file": "./games/snowbattle/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=snowbattle",
+    "desc": "Play Snowbattle."
+  },
+  {
+    "id": "extra-soldier-legend",
+    "title": "Soldier Legend",
+    "file": "./games/soldier-legend/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=soldier-legend",
+    "desc": "Play Soldier Legend."
+  },
+  {
+    "id": "extra-solitaire",
+    "title": "Solitaire",
+    "file": "./games/solitaire/index.html",
+    "cover": "./games/solitaire/screen-shot-win.png",
+    "desc": "Play Solitaire."
   }
 ]
