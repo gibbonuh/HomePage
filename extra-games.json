@@ -1706,5 +1706,75 @@
     "file": "./games/one-screen-run-2/index.html",
     "cover": "./games/one-screen-run-2/icon.png",
     "desc": "Play One Screen Run 2."
+  },
+  {
+    "id": "extra-osu",
+    "title": "Osu",
+    "file": "./games/osu/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=osu",
+    "desc": "Play Osu."
+  },
+  {
+    "id": "extra-ovo",
+    "title": "Ovo",
+    "file": "./games/ovo/index.html",
+    "cover": "./games/ovo/ada.png",
+    "desc": "Play Ovo."
+  },
+  {
+    "id": "extra-packabunchas",
+    "title": "Packabunchas",
+    "file": "./games/packabunchas/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=packabunchas",
+    "desc": "Play Packabunchas."
+  },
+  {
+    "id": "extra-pacman-fps",
+    "title": "Pacman Fps",
+    "file": "./games/pacman-fps/index.html",
+    "cover": "./games/pacman-fps/icon.jpg",
+    "desc": "Play Pacman Fps."
+  },
+  {
+    "id": "extra-pandemic2",
+    "title": "Pandemic2",
+    "file": "./games/pandemic2/index.html",
+    "cover": "./games/pandemic2/pandemic2.png",
+    "desc": "Play Pandemic2."
+  },
+  {
+    "id": "extra-papa-louie",
+    "title": "Papa Louie",
+    "file": "./games/papa-louie/index.html",
+    "cover": "./games/papa-louie/bigredbutton.png",
+    "desc": "Play Papa Louie."
+  },
+  {
+    "id": "extra-papas-burgeria",
+    "title": "Papas Burgeria",
+    "file": "./games/papas-burgeria/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-burgeria",
+    "desc": "Play Papas Burgeria."
+  },
+  {
+    "id": "extra-papas-freezeria",
+    "title": "Papas Freezeria",
+    "file": "./games/papas-freezeria/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-freezeria",
+    "desc": "Play Papas Freezeria."
+  },
+  {
+    "id": "extra-papas-hot-doggeria",
+    "title": "Papas Hot Doggeria",
+    "file": "./games/papas-hot-doggeria/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-hot-doggeria",
+    "desc": "Play Papas Hot Doggeria."
+  },
+  {
+    "id": "extra-papas-pancakeria",
+    "title": "Papas Pancakeria",
+    "file": "./games/papas-pancakeria/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-pancakeria",
+    "desc": "Play Papas Pancakeria."
   }
 ]
