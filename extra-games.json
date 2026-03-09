@@ -236,5 +236,75 @@
     "file": "./games/cluster-rush/index.html",
     "cover": "./games/cluster-rush/icon.jpg",
     "desc": "Play Cluster Rush."
+  },
+  {
+    "id": "extra-adarkroom",
+    "title": "Adarkroom",
+    "file": "./games/adarkroom/index.html",
+    "cover": "./games/adarkroom/splash.png",
+    "desc": "Play Adarkroom."
+  },
+  {
+    "id": "extra-astray",
+    "title": "Astray",
+    "file": "./games/astray/index.html",
+    "cover": "./games/astray/ball.png",
+    "desc": "Play Astray."
+  },
+  {
+    "id": "extra-avalanche",
+    "title": "Avalanche",
+    "file": "./games/avalanche/index.html",
+    "cover": "./games/avalanche/avalanche.png",
+    "desc": "Play Avalanche."
+  },
+  {
+    "id": "extra-backcountry",
+    "title": "Backcountry",
+    "file": "./games/backcountry/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=backcountry",
+    "desc": "Play Backcountry."
+  },
+  {
+    "id": "extra-bad-ice-cream",
+    "title": "Bad Ice Cream",
+    "file": "./games/bad-ice-cream/index.html",
+    "cover": "./games/bad-ice-cream/bad-ice-cream.png",
+    "desc": "Play Bad Ice Cream."
+  },
+  {
+    "id": "extra-bad-ice-cream-2",
+    "title": "Bad Ice Cream 2",
+    "file": "./games/bad-ice-cream-2/index.html",
+    "cover": "./games/bad-ice-cream-2/bad-ice-cream-2.png",
+    "desc": "Play Bad Ice Cream 2."
+  },
+  {
+    "id": "extra-bad-ice-cream-3",
+    "title": "Bad Ice Cream 3",
+    "file": "./games/bad-ice-cream-3/index.html",
+    "cover": "./games/bad-ice-cream-3/bad-ice-cream-3.png",
+    "desc": "Play Bad Ice Cream 3."
+  },
+  {
+    "id": "extra-breakout",
+    "title": "Breakout",
+    "file": "./games/breakout/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=breakout",
+    "desc": "Play Breakout."
+  },
+  {
+    "id": "extra-core-ball",
+    "title": "Core Ball",
+    "file": "./games/core-ball/index.html",
+    "cover": "./games/core-ball/pr_source.png",
+    "desc": "Play Core Ball."
+  },
+  {
+    "id": "extra-cuttherope",
+    "title": "Cuttherope",
+    "file": "./games/cuttherope/index.html",
+    "cover": "./games/cuttherope/ctr.png",
+    "desc": "Play Cuttherope."
   }
 ]
