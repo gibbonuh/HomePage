@@ -89,5 +89,89 @@
     "file": "./paper-io-2.html",
     "cover": "https://placehold.co/600x600/0f3d52/e5e7eb?text=Paper.io+2",
     "desc": "Play Paper.io 2."
+  },
+  {
+    "id": "extra-asteroids",
+    "title": "Asteroids",
+    "file": "./games/asteroids/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=asteroids",
+    "desc": "Play Asteroids."
+  },
+  {
+    "id": "extra-chess",
+    "title": "Chess",
+    "file": "./games/chess/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=chess",
+    "desc": "Play Chess."
+  },
+  {
+    "id": "extra-connect3",
+    "title": "Connect3",
+    "file": "./games/connect3/index.html",
+    "cover": "./games/connect3/connect3.png",
+    "desc": "Play Connect3."
+  },
+  {
+    "id": "extra-cubefield",
+    "title": "Cubefield",
+    "file": "./games/cubefield/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=cubefield",
+    "desc": "Play Cubefield."
+  },
+  {
+    "id": "extra-hexempire",
+    "title": "Hexempire",
+    "file": "./games/hexempire/index.html",
+    "cover": "./games/hexempire/hexempire.jpg",
+    "desc": "Play Hexempire."
+  },
+  {
+    "id": "extra-kittencannon",
+    "title": "Kittencannon",
+    "file": "./games/kittencannon/index.html",
+    "cover": "./games/kittencannon/icon.jpg",
+    "desc": "Play Kittencannon."
+  },
+  {
+    "id": "extra-miniputt",
+    "title": "Miniputt",
+    "file": "./games/miniputt/index.html",
+    "cover": "./games/miniputt/miniputt.png",
+    "desc": "Play Miniputt."
+  },
+  {
+    "id": "extra-om-bounce",
+    "title": "Om Bounce",
+    "file": "./games/om-bounce/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=om-bounce",
+    "desc": "Play Om Bounce."
+  },
+  {
+    "id": "extra-rolly-vortex",
+    "title": "Rolly Vortex",
+    "file": "./games/rolly-vortex/index.html",
+    "cover": "./games/rolly-vortex/icon-114.png",
+    "desc": "Play Rolly Vortex."
+  },
+  {
+    "id": "extra-gunspin",
+    "title": "Gunspin",
+    "file": "./games/gunspin/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=gunspin",
+    "desc": "Play Gunspin."
+  },
+  {
+    "id": "extra-adrenalinechallenge",
+    "title": "Adrenalinechallenge",
+    "file": "./games/adrenalinechallenge/index.html",
+    "cover": "./games/adrenalinechallenge/adrenalinechallenge.jpg",
+    "desc": "Play Adrenalinechallenge."
+  },
+  {
+    "id": "extra-ducklife",
+    "title": "Ducklife",
+    "file": "./games/ducklife/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=ducklife",
+    "desc": "Play Ducklife."
   }
 ]
