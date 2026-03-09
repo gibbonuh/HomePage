@@ -586,5 +586,75 @@
     "file": "./games/battleforgondor/index.html",
     "cover": "./games/battleforgondor/3557.jpg",
     "desc": "Play Battleforgondor."
+  },
+  {
+    "id": "extra-bigredbutton",
+    "title": "Bigredbutton",
+    "file": "./games/bigredbutton/index.html",
+    "cover": "./games/bigredbutton/bigredbutton.png",
+    "desc": "Play Bigredbutton."
+  },
+  {
+    "id": "extra-binding-of-isaac",
+    "title": "Binding Of Isaac",
+    "file": "./games/binding-of-isaac/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=binding-of-isaac",
+    "desc": "Play Binding Of Isaac."
+  },
+  {
+    "id": "extra-bitlife",
+    "title": "Bitlife",
+    "file": "./games/bitlife/index.html",
+    "cover": "./games/bitlife/logo.png",
+    "desc": "Play Bitlife."
+  },
+  {
+    "id": "extra-blacholesquare",
+    "title": "Blacholesquare",
+    "file": "./games/blacholesquare/index.html",
+    "cover": "./games/blacholesquare/icon.png",
+    "desc": "Play Blacholesquare."
+  },
+  {
+    "id": "extra-blackholesquare",
+    "title": "Blackholesquare",
+    "file": "./games/blackholesquare/index.html",
+    "cover": "./games/blackholesquare/icon.png",
+    "desc": "Play Blackholesquare."
+  },
+  {
+    "id": "extra-blackknight",
+    "title": "Blackknight",
+    "file": "./games/blackknight/index.html",
+    "cover": "./games/blackknight/blackknight.png",
+    "desc": "Play Blackknight."
+  },
+  {
+    "id": "extra-blocky-snakes",
+    "title": "Blocky Snakes",
+    "file": "./games/blocky-snakes/index.html",
+    "cover": "./games/blocky-snakes/icon.png",
+    "desc": "Play Blocky Snakes."
+  },
+  {
+    "id": "extra-bloonstd",
+    "title": "Bloonstd",
+    "file": "./games/bloonstd/index.html",
+    "cover": "./games/bloonstd/bloonstd.jpg",
+    "desc": "Play Bloonstd."
+  },
+  {
+    "id": "extra-bloonstd2",
+    "title": "Bloonstd2",
+    "file": "./games/bloonstd2/index.html",
+    "cover": "./games/bloonstd2/bloonstd2.png",
+    "desc": "Play Bloonstd2."
+  },
+  {
+    "id": "extra-bounceback",
+    "title": "Bounceback",
+    "file": "./games/bounceback/index.html",
+    "cover": "./games/bounceback/screenshot.png",
+    "desc": "Play Bounceback."
   }
 ]
