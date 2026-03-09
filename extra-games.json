@@ -2196,5 +2196,75 @@
     "file": "./games/solitaire/index.html",
     "cover": "./games/solitaire/screen-shot-win.png",
     "desc": "Play Solitaire."
+  },
+  {
+    "id": "extra-sonic-the-hedgehog",
+    "title": "Sonic The Hedgehog",
+    "file": "./games/sonic-the-hedgehog/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=sonic-the-hedgehog",
+    "desc": "Play Sonic The Hedgehog."
+  },
+  {
+    "id": "extra-sort-the-court",
+    "title": "Sort The Court",
+    "file": "./games/sort-the-court/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=sort-the-court",
+    "desc": "Play Sort The Court."
+  },
+  {
+    "id": "extra-soundboard",
+    "title": "Soundboard",
+    "file": "./games/soundboard/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=soundboard",
+    "desc": "Play Soundboard."
+  },
+  {
+    "id": "extra-space-company",
+    "title": "Space Company",
+    "file": "./games/space-company/index.html",
+    "cover": "./games/space-company/SpaceCompanyFavicon.png",
+    "desc": "Play Space Company."
+  },
+  {
+    "id": "extra-spacecompany",
+    "title": "Spacecompany",
+    "file": "./games/spacecompany/index.html",
+    "cover": "./games/spacecompany/SpaceCompanyFavicon.png",
+    "desc": "Play Spacecompany."
+  },
+  {
+    "id": "extra-spacegarden",
+    "title": "Spacegarden",
+    "file": "./games/spacegarden/index.html",
+    "cover": "./games/spacegarden/spl.png",
+    "desc": "Play Spacegarden."
+  },
+  {
+    "id": "extra-spacehuggers",
+    "title": "Spacehuggers",
+    "file": "./games/spacehuggers/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=spacehuggers",
+    "desc": "Play Spacehuggers."
+  },
+  {
+    "id": "extra-spelunky",
+    "title": "Spelunky",
+    "file": "./games/spelunky/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=spelunky",
+    "desc": "Play Spelunky."
+  },
+  {
+    "id": "extra-ssf",
+    "title": "Ssf",
+    "file": "./games/ssf/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=ssf",
+    "desc": "Play Ssf."
+  },
+  {
+    "id": "extra-stack",
+    "title": "Stack",
+    "file": "./games/stack/index.html",
+    "cover": "./games/stack/featured-stack.jpg",
+    "desc": "Play Stack."
   }
 ]
