@@ -2686,5 +2686,75 @@
     "file": "./games/wipo/index.html",
     "cover": "./games/wipo/icon-114.png",
     "desc": "Play Wipo."
+  },
+  {
+    "id": "extra-wolf3d",
+    "title": "Wolf3d",
+    "file": "./games/wolf3d/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=wolf3d",
+    "desc": "Play Wolf3d."
+  },
+  {
+    "id": "extra-wordle",
+    "title": "Wordle",
+    "file": "./games/wordle/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=wordle",
+    "desc": "Play Wordle."
+  },
+  {
+    "id": "extra-worlds-hardest-game",
+    "title": "Worlds Hardest Game",
+    "file": "./games/worlds-hardest-game/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=worlds-hardest-game",
+    "desc": "Play Worlds Hardest Game."
+  },
+  {
+    "id": "extra-worlds-hardest-game-2",
+    "title": "Worlds Hardest Game 2",
+    "file": "./games/worlds-hardest-game-2/index.html",
+    "cover": "./games/worlds-hardest-game-2/the-worlds-hardest-game-2.jpg",
+    "desc": "Play Worlds Hardest Game 2."
+  },
+  {
+    "id": "extra-x-trial-racing",
+    "title": "X Trial Racing",
+    "file": "./games/x-trial-racing/index.html",
+    "cover": "./games/x-trial-racing/splash.png",
+    "desc": "Play X Trial Racing."
+  },
+  {
+    "id": "extra-xx142-b2exe",
+    "title": "Xx142 B2exe",
+    "file": "./games/xx142-b2exe/index.html",
+    "cover": "./games/xx142-b2exe/splash.png",
+    "desc": "Play Xx142 B2exe."
+  },
+  {
+    "id": "extra-yoshifabrication",
+    "title": "Yoshifabrication",
+    "file": "./games/yoshifabrication/index.html",
+    "cover": "./games/yoshifabrication/flowwatertm0.png",
+    "desc": "Play Yoshifabrication."
+  },
+  {
+    "id": "extra-you-are-bezos",
+    "title": "You Are Bezos",
+    "file": "./games/you-are-bezos/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=you-are-bezos",
+    "desc": "Play You Are Bezos."
+  },
+  {
+    "id": "extra-zig-zag",
+    "title": "Zig Zag",
+    "file": "./games/zig-zag/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=zig-zag",
+    "desc": "Play Zig Zag."
+  },
+  {
+    "id": "extra-zombocalypse",
+    "title": "Zombocalypse",
+    "file": "./games/zombocalypse/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=zombocalypse",
+    "desc": "Play Zombocalypse."
   }
 ]
