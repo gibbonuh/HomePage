@@ -2616,5 +2616,75 @@
     "file": "./games/unfold-2/index.html",
     "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=unfold-2",
     "desc": "Play Unfold 2."
+  },
+  {
+    "id": "extra-up-left-out",
+    "title": "Up Left Out",
+    "file": "./games/up-left-out/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=up-left-out",
+    "desc": "Play Up Left Out."
+  },
+  {
+    "id": "extra-veloce",
+    "title": "Veloce",
+    "file": "./games/veloce/index.html",
+    "cover": "./games/veloce/icon.png",
+    "desc": "Play Veloce."
+  },
+  {
+    "id": "extra-vex3",
+    "title": "Vex3",
+    "file": "./games/vex3/index.html",
+    "cover": "./games/vex3/762c932b4db74c6da0c1d101b2da8be6-512x512.jpeg",
+    "desc": "Play Vex3."
+  },
+  {
+    "id": "extra-vex4",
+    "title": "Vex4",
+    "file": "./games/vex4/index.html",
+    "cover": "./games/vex4/80e6a5ae477f4d4fbcd1ea293d10087d-512x512.jpeg",
+    "desc": "Play Vex4."
+  },
+  {
+    "id": "extra-vex5",
+    "title": "Vex5",
+    "file": "./games/vex5/index.html",
+    "cover": "./games/vex5/f120262ab72743039fbce88c1f370df8-512x512.jpeg",
+    "desc": "Play Vex5."
+  },
+  {
+    "id": "extra-vex6",
+    "title": "Vex6",
+    "file": "./games/vex6/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=vex6",
+    "desc": "Play Vex6."
+  },
+  {
+    "id": "extra-vex7",
+    "title": "Vex7",
+    "file": "./games/vex7/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=vex7",
+    "desc": "Play Vex7."
+  },
+  {
+    "id": "extra-waterworks",
+    "title": "Waterworks",
+    "file": "./games/waterworks/index.html",
+    "cover": "./games/waterworks/icon.png",
+    "desc": "Play Waterworks."
+  },
+  {
+    "id": "extra-winter-falling-price",
+    "title": "Winter Falling Price",
+    "file": "./games/winter-falling-price/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=winter-falling-price",
+    "desc": "Play Winter Falling Price."
+  },
+  {
+    "id": "extra-wipo",
+    "title": "Wipo",
+    "file": "./games/wipo/index.html",
+    "cover": "./games/wipo/icon-114.png",
+    "desc": "Play Wipo."
   }
 ]
