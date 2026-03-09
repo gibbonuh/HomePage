@@ -726,5 +726,75 @@
     "file": "./games/captaincallisto/index.html",
     "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=captaincallisto",
     "desc": "Play Captaincallisto."
+  },
+  {
+    "id": "extra-cars-simulator",
+    "title": "Cars Simulator",
+    "file": "./games/cars-simulator/index.html",
+    "cover": "./games/cars-simulator/splash.png",
+    "desc": "Play Cars Simulator."
+  },
+  {
+    "id": "extra-cell-machine",
+    "title": "Cell Machine",
+    "file": "./games/cell-machine/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=cell-machine",
+    "desc": "Play Cell Machine."
+  },
+  {
+    "id": "extra-championarcher",
+    "title": "Championarcher",
+    "file": "./games/championarcher/index.html",
+    "cover": "./games/championarcher/championarcher.png",
+    "desc": "Play Championarcher."
+  },
+  {
+    "id": "extra-chill-radio",
+    "title": "Chill Radio",
+    "file": "./games/chill-radio/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=chill-radio",
+    "desc": "Play Chill Radio."
+  },
+  {
+    "id": "extra-chromaincident",
+    "title": "Chromaincident",
+    "file": "./games/chromaincident/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=chromaincident",
+    "desc": "Play Chromaincident."
+  },
+  {
+    "id": "extra-chromedino",
+    "title": "Chromedino",
+    "file": "./games/chromedino/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=chromedino",
+    "desc": "Play Chromedino."
+  },
+  {
+    "id": "extra-circlo",
+    "title": "Circlo",
+    "file": "./games/circlo/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=circlo",
+    "desc": "Play Circlo."
+  },
+  {
+    "id": "extra-city-blocks-2",
+    "title": "City Blocks 2",
+    "file": "./games/city-blocks-2/index.html",
+    "cover": "./games/city-blocks-2/icon.png",
+    "desc": "Play City Blocks 2."
+  },
+  {
+    "id": "extra-clean-up-io",
+    "title": "Clean Up Io",
+    "file": "./games/clean-up-io/index.html",
+    "cover": "./games/clean-up-io/icon.png",
+    "desc": "Play Clean Up Io."
+  },
+  {
+    "id": "extra-color-switch-2-challenges",
+    "title": "Color Switch 2 Challenges",
+    "file": "./games/color-switch-2-challenges/index.html",
+    "cover": "./games/color-switch-2-challenges/icon.png",
+    "desc": "Play Color Switch 2 Challenges."
   }
 ]
