@@ -1356,5 +1356,75 @@
     "file": "./games/helios/index.html",
     "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=helios",
     "desc": "Play Helios."
+  },
+  {
+    "id": "extra-house-of-hazards",
+    "title": "House Of Hazards",
+    "file": "./games/house-of-hazards/index.html",
+    "cover": "./games/house-of-hazards/thumbnail.jpg",
+    "desc": "Play House Of Hazards."
+  },
+  {
+    "id": "extra-idle-breakout",
+    "title": "Idle Breakout",
+    "file": "./games/idle-breakout/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=idle-breakout",
+    "desc": "Play Idle Breakout."
+  },
+  {
+    "id": "extra-idle-shark",
+    "title": "Idle Shark",
+    "file": "./games/idle-shark/index.html",
+    "cover": "./games/idle-shark/favicon.png",
+    "desc": "Play Idle Shark."
+  },
+  {
+    "id": "extra-impossiblequiz",
+    "title": "Impossiblequiz",
+    "file": "./games/impossiblequiz/index.html",
+    "cover": "./games/impossiblequiz/impossiblequiz.png",
+    "desc": "Play Impossiblequiz."
+  },
+  {
+    "id": "extra-interactivebuddy",
+    "title": "Interactivebuddy",
+    "file": "./games/interactivebuddy/index.html",
+    "cover": "./games/interactivebuddy/interactivebuddy.jpg",
+    "desc": "Play Interactivebuddy."
+  },
+  {
+    "id": "extra-iscribble-io",
+    "title": "Iscribble Io",
+    "file": "./games/iscribble-io/index.html",
+    "cover": "./games/iscribble-io/icon.png",
+    "desc": "Play Iscribble Io."
+  },
+  {
+    "id": "extra-jelly-truck",
+    "title": "Jelly Truck",
+    "file": "./games/jelly-truck/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=jelly-truck",
+    "desc": "Play Jelly Truck."
+  },
+  {
+    "id": "extra-jetpack",
+    "title": "Jetpack",
+    "file": "./games/jetpack/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=jetpack",
+    "desc": "Play Jetpack."
+  },
+  {
+    "id": "extra-jimothy-piggerton",
+    "title": "Jimothy Piggerton",
+    "file": "./games/jimothy-piggerton/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=jimothy-piggerton",
+    "desc": "Play Jimothy Piggerton."
+  },
+  {
+    "id": "extra-just-one-boss",
+    "title": "Just One Boss",
+    "file": "./games/just-one-boss/index.html",
+    "cover": "./games/just-one-boss/pv1Gr5.png",
+    "desc": "Play Just One Boss."
   }
 ]
