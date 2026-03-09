@@ -2756,5 +2756,12 @@
     "file": "./games/zombocalypse/index.html",
     "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=zombocalypse",
     "desc": "Play Zombocalypse."
+  },
+  {
+    "id": "extra-zombs-royale",
+    "title": "Zombs Royale",
+    "file": "./games/zombs-royale/index.html",
+    "cover": "./games/zombs-royale/zomb.png",
+    "desc": "Play Zombs Royale."
   }
 ]
