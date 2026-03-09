@@ -1846,5 +1846,75 @@
     "file": "./games/path-finder/index.html",
     "cover": "./games/path-finder/tick.gif",
     "desc": "Play Path Finder."
+  },
+  {
+    "id": "extra-pe-noire",
+    "title": "Pe Noire",
+    "file": "./games/pe-noire/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=pe-noire",
+    "desc": "Play Pe Noire."
+  },
+  {
+    "id": "extra-pikwip",
+    "title": "Pikwip",
+    "file": "./games/pikwip/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=pikwip",
+    "desc": "Play Pikwip."
+  },
+  {
+    "id": "extra-pixel-cave",
+    "title": "Pixel Cave",
+    "file": "./games/pixel-cave/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=pixel-cave",
+    "desc": "Play Pixel Cave."
+  },
+  {
+    "id": "extra-polybranch",
+    "title": "Polybranch",
+    "file": "./games/polybranch/index.html",
+    "cover": "./games/polybranch/Arrow_keys.png",
+    "desc": "Play Polybranch."
+  },
+  {
+    "id": "extra-popcat-classic",
+    "title": "Popcat Classic",
+    "file": "./games/popcat-classic/index.html",
+    "cover": "./games/popcat-classic/splash.png",
+    "desc": "Play Popcat Classic."
+  },
+  {
+    "id": "extra-portalflash",
+    "title": "Portalflash",
+    "file": "./games/portalflash/index.html",
+    "cover": "./games/portalflash/portaltheflashversion.jpg",
+    "desc": "Play Portalflash."
+  },
+  {
+    "id": "extra-protektor",
+    "title": "Protektor",
+    "file": "./games/protektor/index.html",
+    "cover": "./games/protektor/splash.jpg",
+    "desc": "Play Protektor."
+  },
+  {
+    "id": "extra-push-the-square",
+    "title": "Push The Square",
+    "file": "./games/push-the-square/index.html",
+    "cover": "./games/push-the-square/icon.png",
+    "desc": "Play Push The Square."
+  },
+  {
+    "id": "extra-push-your-luck",
+    "title": "Push Your Luck",
+    "file": "./games/push-your-luck/index.html",
+    "cover": "./games/push-your-luck/icon.png",
+    "desc": "Play Push Your Luck."
+  },
+  {
+    "id": "extra-pushback",
+    "title": "Pushback",
+    "file": "./games/pushback/index.html",
+    "cover": "./games/pushback/w.jpg",
+    "desc": "Play Pushback."
   }
 ]
