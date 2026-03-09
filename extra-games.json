@@ -2406,5 +2406,75 @@
     "file": "./games/tacticalassasin2/index.html",
     "cover": "./games/tacticalassasin2/tacticalassassin2.png",
     "desc": "Play Tacticalassasin2."
+  },
+  {
+    "id": "extra-tail-of-the-dragon",
+    "title": "Tail Of The Dragon",
+    "file": "./games/tail-of-the-dragon/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tail-of-the-dragon",
+    "desc": "Play Tail Of The Dragon."
+  },
+  {
+    "id": "extra-tank-trouble-2",
+    "title": "Tank Trouble 2",
+    "file": "./games/tank-trouble-2/index.html",
+    "cover": "./games/tank-trouble-2/icon-128.png",
+    "desc": "Play Tank Trouble 2."
+  },
+  {
+    "id": "extra-temple-run-2",
+    "title": "Temple Run 2",
+    "file": "./games/temple-run-2/index.html",
+    "cover": "./games/temple-run-2/079dea52d8f43464bedd59bc35cc7999.jpg",
+    "desc": "Play Temple Run 2."
+  },
+  {
+    "id": "extra-tetris",
+    "title": "Tetris",
+    "file": "./games/tetris/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tetris",
+    "desc": "Play Tetris."
+  },
+  {
+    "id": "extra-the-final-earth",
+    "title": "The Final Earth",
+    "file": "./games/the-final-earth/index.html",
+    "cover": "./games/the-final-earth/images.png",
+    "desc": "Play The Final Earth."
+  },
+  {
+    "id": "extra-the-final-earth-2",
+    "title": "The Final Earth 2",
+    "file": "./games/the-final-earth-2/index.html",
+    "cover": "./games/the-final-earth-2/sprites.png",
+    "desc": "Play The Final Earth 2."
+  },
+  {
+    "id": "extra-the-impossible-quiz",
+    "title": "The Impossible Quiz",
+    "file": "./games/the-impossible-quiz/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=the-impossible-quiz",
+    "desc": "Play The Impossible Quiz."
+  },
+  {
+    "id": "extra-the-impossible-quiz-2",
+    "title": "The Impossible Quiz 2",
+    "file": "./games/the-impossible-quiz-2/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=the-impossible-quiz-2",
+    "desc": "Play The Impossible Quiz 2."
+  },
+  {
+    "id": "extra-the-little-giant",
+    "title": "The Little Giant",
+    "file": "./games/the-little-giant/index.html",
+    "cover": "./games/the-little-giant/penumbra.png",
+    "desc": "Play The Little Giant."
+  },
+  {
+    "id": "extra-thebattle",
+    "title": "Thebattle",
+    "file": "./games/thebattle/index.html",
+    "cover": "./games/thebattle/thebattle.png",
+    "desc": "Play Thebattle."
   }
 ]
