@@ -1426,5 +1426,75 @@
     "file": "./games/just-one-boss/index.html",
     "cover": "./games/just-one-boss/pv1Gr5.png",
     "desc": "Play Just One Boss."
+  },
+  {
+    "id": "extra-justfall",
+    "title": "Justfall",
+    "file": "./games/justfall/index.html",
+    "cover": "./games/justfall/splash.jpg",
+    "desc": "Play Justfall."
+  },
+  {
+    "id": "extra-kart-fight-io",
+    "title": "Kart Fight Io",
+    "file": "./games/kart-fight-io/index.html",
+    "cover": "./games/kart-fight-io/icon.jpg",
+    "desc": "Play Kart Fight Io."
+  },
+  {
+    "id": "extra-kitchen-gun-game",
+    "title": "Kitchen Gun Game",
+    "file": "./games/kitchen-gun-game/index.html",
+    "cover": "./games/kitchen-gun-game/icon.png",
+    "desc": "Play Kitchen Gun Game."
+  },
+  {
+    "id": "extra-klocki",
+    "title": "Klocki",
+    "file": "./games/klocki/index.html",
+    "cover": "./games/klocki/icon.jpg",
+    "desc": "Play Klocki."
+  },
+  {
+    "id": "extra-konnekt",
+    "title": "Konnekt",
+    "file": "./games/konnekt/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=konnekt",
+    "desc": "Play Konnekt."
+  },
+  {
+    "id": "extra-krunker",
+    "title": "Krunker",
+    "file": "./games/krunker/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=krunker",
+    "desc": "Play Krunker."
+  },
+  {
+    "id": "extra-learntofly",
+    "title": "Learntofly",
+    "file": "./games/learntofly/index.html",
+    "cover": "./games/learntofly/learntofly.png",
+    "desc": "Play Learntofly."
+  },
+  {
+    "id": "extra-learntofly2",
+    "title": "Learntofly2",
+    "file": "./games/learntofly2/index.html",
+    "cover": "./games/learntofly2/learn-to-fly-2.jpg",
+    "desc": "Play Learntofly2."
+  },
+  {
+    "id": "extra-line-rider",
+    "title": "Line Rider",
+    "file": "./games/line-rider/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=line-rider",
+    "desc": "Play Line Rider."
+  },
+  {
+    "id": "extra-linquest",
+    "title": "Linquest",
+    "file": "./games/linquest/index.html",
+    "cover": "./games/linquest/icon.jpg",
+    "desc": "Play Linquest."
   }
 ]
