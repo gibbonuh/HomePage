@@ -1216,5 +1216,75 @@
     "file": "./games/getting-over-it/index.html",
     "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=getting-over-it",
     "desc": "Play Getting Over It."
+  },
+  {
+    "id": "extra-gimme-the-airpod",
+    "title": "Gimme The Airpod",
+    "file": "./games/gimme-the-airpod/index.html",
+    "cover": "./games/gimme-the-airpod/icon.png",
+    "desc": "Play Gimme The Airpod."
+  },
+  {
+    "id": "extra-glass-city",
+    "title": "Glass City",
+    "file": "./games/glass-city/index.html",
+    "cover": "./games/glass-city/icon.png",
+    "desc": "Play Glass City."
+  },
+  {
+    "id": "extra-go-ball",
+    "title": "Go Ball",
+    "file": "./games/go-ball/index.html",
+    "cover": "./games/go-ball/game.jpg",
+    "desc": "Play Go Ball."
+  },
+  {
+    "id": "extra-goodnight",
+    "title": "Goodnight",
+    "file": "./games/goodnight/index.html",
+    "cover": "./games/goodnight/goodnight.jpg",
+    "desc": "Play Goodnight."
+  },
+  {
+    "id": "extra-google-snake",
+    "title": "Google Snake",
+    "file": "./games/google-snake/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=google-snake",
+    "desc": "Play Google Snake."
+  },
+  {
+    "id": "extra-gopher",
+    "title": "Gopher",
+    "file": "./games/gopher/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=gopher",
+    "desc": "Play Gopher."
+  },
+  {
+    "id": "extra-gravity-soccer",
+    "title": "Gravity Soccer",
+    "file": "./games/gravity-soccer/index.html",
+    "cover": "./games/gravity-soccer/icon.png",
+    "desc": "Play Gravity Soccer."
+  },
+  {
+    "id": "extra-green",
+    "title": "Green",
+    "file": "./games/green/index.html",
+    "cover": "./games/green/icon.png",
+    "desc": "Play Green."
+  },
+  {
+    "id": "extra-greybox",
+    "title": "Greybox",
+    "file": "./games/greybox/index.html",
+    "cover": "./games/greybox/icon.png",
+    "desc": "Play Greybox."
+  },
+  {
+    "id": "extra-grindcraft",
+    "title": "Grindcraft",
+    "file": "./games/grindcraft/index.html",
+    "cover": "./games/grindcraft/icon.png",
+    "desc": "Play Grindcraft."
   }
 ]
