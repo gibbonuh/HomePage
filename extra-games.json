@@ -306,5 +306,75 @@
     "file": "./games/cuttherope/index.html",
     "cover": "./games/cuttherope/ctr.png",
     "desc": "Play Cuttherope."
+  },
+  {
+    "id": "extra-dadish",
+    "title": "Dadish",
+    "file": "./games/dadish/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=dadish",
+    "desc": "Play Dadish."
+  },
+  {
+    "id": "extra-dadishtwo",
+    "title": "Dadishtwo",
+    "file": "./games/dadishtwo/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=dadishtwo",
+    "desc": "Play Dadishtwo."
+  },
+  {
+    "id": "extra-dadish3",
+    "title": "Dadish3",
+    "file": "./games/dadish3/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=dadish3",
+    "desc": "Play Dadish3."
+  },
+  {
+    "id": "extra-ducklife2",
+    "title": "Ducklife2",
+    "file": "./games/ducklife2/index.html",
+    "cover": "./games/ducklife2/icon.jpg",
+    "desc": "Play Ducklife2."
+  },
+  {
+    "id": "extra-ducklife3",
+    "title": "Ducklife3",
+    "file": "./games/ducklife3/index.html",
+    "cover": "./games/ducklife3/duck.png",
+    "desc": "Play Ducklife3."
+  },
+  {
+    "id": "extra-ducklife4",
+    "title": "Ducklife4",
+    "file": "./games/ducklife4/index.html",
+    "cover": "./games/ducklife4/splash.jpg",
+    "desc": "Play Ducklife4."
+  },
+  {
+    "id": "extra-drive-mad",
+    "title": "Drive Mad",
+    "file": "./games/drive-mad/index.html",
+    "cover": "./games/drive-mad/logo.jpg",
+    "desc": "Play Drive Mad."
+  },
+  {
+    "id": "extra-elasticman",
+    "title": "Elasticman",
+    "file": "./games/elasticman/index.html",
+    "cover": "./games/elasticman/elasticman.jpg",
+    "desc": "Play Elasticman."
+  },
+  {
+    "id": "extra-evilglitch",
+    "title": "Evilglitch",
+    "file": "./games/evilglitch/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=evilglitch",
+    "desc": "Play Evilglitch."
+  },
+  {
+    "id": "extra-fancypantsadventures",
+    "title": "Fancypantsadventures",
+    "file": "./games/fancypantsadventures/index.html",
+    "cover": "./games/fancypantsadventures/fancypantsadventure.png",
+    "desc": "Play Fancypantsadventures."
   }
 ]
