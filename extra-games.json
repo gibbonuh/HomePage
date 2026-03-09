@@ -173,5 +173,68 @@
     "file": "./games/ducklife/index.html",
     "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=ducklife",
     "desc": "Play Ducklife."
+  },
+  {
+    "id": "extra-bloxors",
+    "title": "Bloxors",
+    "file": "./games/bloxors/index.html",
+    "cover": "./games/bloxors/block.png",
+    "desc": "Play Bloxors."
+  },
+  {
+    "id": "extra-backflip-dive-3d",
+    "title": "Backflip Dive 3d",
+    "file": "./games/backflip-dive-3d/index.html",
+    "cover": "./games/backflip-dive-3d/icon.jpeg",
+    "desc": "Play Backflip Dive 3d."
+  },
+  {
+    "id": "extra-doctor-acorn2",
+    "title": "Doctor Acorn2",
+    "file": "./games/doctor-acorn2/index.html",
+    "cover": "./games/doctor-acorn2/splash.jpg",
+    "desc": "Play Doctor Acorn2."
+  },
+  {
+    "id": "extra-flood-runner-2",
+    "title": "Flood Runner 2",
+    "file": "./games/flood-runner-2/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=flood-runner-2",
+    "desc": "Play Flood Runner 2."
+  },
+  {
+    "id": "extra-fruitninja",
+    "title": "Fruitninja",
+    "file": "./games/fruitninja/index.html",
+    "cover": "./games/fruitninja/FruitNinjaTeaser.jpg",
+    "desc": "Play Fruitninja."
+  },
+  {
+    "id": "extra-golf",
+    "title": "Golf",
+    "file": "./games/golf/index.html",
+    "cover": "./games/golf/icon.jpg",
+    "desc": "Play Golf."
+  },
+  {
+    "id": "extra-boxel-rebound",
+    "title": "Boxel Rebound",
+    "file": "./games/boxel-rebound/index.html",
+    "cover": "./games/boxel-rebound/icon.png",
+    "desc": "Play Boxel Rebound."
+  },
+  {
+    "id": "extra-icys-purple-head",
+    "title": "Icys Purple Head",
+    "file": "./games/icys-purple-head/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=icys-purple-head",
+    "desc": "Play Icys Purple Head."
+  },
+  {
+    "id": "extra-cluster-rush",
+    "title": "Cluster Rush",
+    "file": "./games/cluster-rush/index.html",
+    "cover": "./games/cluster-rush/icon.jpg",
+    "desc": "Play Cluster Rush."
   }
 ]
