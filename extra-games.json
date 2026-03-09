@@ -446,5 +446,75 @@
     "file": "./games/HexGL/index.html",
     "cover": "./games/HexGL/icon.png",
     "desc": "Play Hexgl."
+  },
+  {
+    "id": "extra-offlineparadise",
+    "title": "Offlineparadise",
+    "file": "./games/OfflineParadise/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=OfflineParadise",
+    "desc": "Play Offlineparadise."
+  },
+  {
+    "id": "extra-stickman-survival",
+    "title": "Stickman Survival",
+    "file": "./games/Stickman-Survival/index.html",
+    "cover": "./games/Stickman-Survival/Icon.png",
+    "desc": "Play Stickman Survival."
+  },
+  {
+    "id": "extra-achievementunlocked",
+    "title": "Achievementunlocked",
+    "file": "./games/achievementunlocked/index.html",
+    "cover": "./games/achievementunlocked/achievementunlocked.png",
+    "desc": "Play Achievementunlocked."
+  },
+  {
+    "id": "extra-age-of-war",
+    "title": "Age Of War",
+    "file": "./games/age-of-war/index.html",
+    "cover": "./games/age-of-war/icon.jpg",
+    "desc": "Play Age Of War."
+  },
+  {
+    "id": "extra-alien-invaders-io",
+    "title": "Alien Invaders Io",
+    "file": "./games/alien-invaders-io/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=alien-invaders-io",
+    "desc": "Play Alien Invaders Io."
+  },
+  {
+    "id": "extra-alienhominid",
+    "title": "Alienhominid",
+    "file": "./games/alienhominid/index.html",
+    "cover": "./games/alienhominid/alienhominid.jpeg",
+    "desc": "Play Alienhominid."
+  },
+  {
+    "id": "extra-align-4",
+    "title": "Align 4",
+    "file": "./games/align-4/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=align-4",
+    "desc": "Play Align 4."
+  },
+  {
+    "id": "extra-among-us",
+    "title": "Among Us",
+    "file": "./games/among-us/index.html",
+    "cover": "./games/among-us/penumbra.png",
+    "desc": "Play Among Us."
+  },
+  {
+    "id": "extra-angry-birds",
+    "title": "Angry Birds",
+    "file": "./games/angry-birds/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=angry-birds",
+    "desc": "Play Angry Birds."
+  },
+  {
+    "id": "extra-anti-terrorist-rush",
+    "title": "Anti Terrorist Rush",
+    "file": "./games/anti-terrorist-rush/index.html",
+    "cover": "./games/anti-terrorist-rush/icon.png",
+    "desc": "Play Anti Terrorist Rush."
   }
 ]
