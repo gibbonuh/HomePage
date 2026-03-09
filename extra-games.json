@@ -1566,5 +1566,75 @@
     "file": "./games/meme2048/index.html",
     "cover": "./games/meme2048/icon.png",
     "desc": "Play Meme2048."
+  },
+  {
+    "id": "extra-minecraft",
+    "title": "Minecraft",
+    "file": "./games/minecraft/index.html",
+    "cover": "./games/minecraft/grass.png",
+    "desc": "Play Minecraft."
+  },
+  {
+    "id": "extra-minecraft-classic",
+    "title": "Minecraft Classic",
+    "file": "./games/minecraft-classic/index.html",
+    "cover": "./games/minecraft-classic/pack.png",
+    "desc": "Play Minecraft Classic."
+  },
+  {
+    "id": "extra-minecraftbeta",
+    "title": "Minecraftbeta",
+    "file": "./games/minecraftbeta/index.html",
+    "cover": "./games/minecraftbeta/bg_main.png",
+    "desc": "Play Minecraftbeta."
+  },
+  {
+    "id": "extra-mini-stilts",
+    "title": "Mini Stilts",
+    "file": "./games/mini-stilts/index.html",
+    "cover": "./games/mini-stilts/icon.png",
+    "desc": "Play Mini Stilts."
+  },
+  {
+    "id": "extra-missiles",
+    "title": "Missiles",
+    "file": "./games/missiles/index.html",
+    "cover": "./games/missiles/miss.png",
+    "desc": "Play Missiles."
+  },
+  {
+    "id": "extra-moto-x3m-2",
+    "title": "Moto X3m 2",
+    "file": "./games/moto-x3m-2/index.html",
+    "cover": "./games/moto-x3m-2/icon.jpg",
+    "desc": "Play Moto X3m 2."
+  },
+  {
+    "id": "extra-moto-x3m-pool-party",
+    "title": "Moto X3m Pool Party",
+    "file": "./games/moto-x3m-pool-party/index.html",
+    "cover": "./games/moto-x3m-pool-party/icon.png",
+    "desc": "Play Moto X3m Pool Party."
+  },
+  {
+    "id": "extra-motox3m",
+    "title": "Motox3m",
+    "file": "./games/motox3m/index.html",
+    "cover": "./games/motox3m/splash.jpg",
+    "desc": "Play Motox3m."
+  },
+  {
+    "id": "extra-motox3m-pool",
+    "title": "Motox3m Pool",
+    "file": "./games/motox3m-pool/index.html",
+    "cover": "./games/motox3m-pool/splash.jpg",
+    "desc": "Play Motox3m Pool."
+  },
+  {
+    "id": "extra-motox3m-spooky",
+    "title": "Motox3m Spooky",
+    "file": "./games/motox3m-spooky/index.html",
+    "cover": "./games/motox3m-spooky/splash.jpeg",
+    "desc": "Play Motox3m Spooky."
   }
 ]
