@@ -1006,5 +1006,75 @@
     "file": "./games/edgenotfound/index.html",
     "cover": "./games/edgenotfound/edge.png",
     "desc": "Play Edgenotfound."
+  },
+  {
+    "id": "extra-elastic-face",
+    "title": "Elastic Face",
+    "file": "./games/elastic-face/index.html",
+    "cover": "./games/elastic-face/pull.png",
+    "desc": "Play Elastic Face."
+  },
+  {
+    "id": "extra-endlesswar3",
+    "title": "Endlesswar3",
+    "file": "./games/endlesswar3/index.html",
+    "cover": "./games/endlesswar3/endlesswar3.png",
+    "desc": "Play Endlesswar3."
+  },
+  {
+    "id": "extra-escapingtheprison",
+    "title": "Escapingtheprison",
+    "file": "./games/escapingtheprison/index.html",
+    "cover": "./games/escapingtheprison/escapingtheprison.jpg",
+    "desc": "Play Escapingtheprison."
+  },
+  {
+    "id": "extra-evil-glitch",
+    "title": "Evil Glitch",
+    "file": "./games/evil-glitch/index.html",
+    "cover": "./games/evil-glitch/icon.jpg",
+    "desc": "Play Evil Glitch."
+  },
+  {
+    "id": "extra-evolution",
+    "title": "Evolution",
+    "file": "./games/evolution/index.html",
+    "cover": "./games/evolution/icon.png",
+    "desc": "Play Evolution."
+  },
+  {
+    "id": "extra-exo",
+    "title": "Exo",
+    "file": "./games/exo/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=exo",
+    "desc": "Play Exo."
+  },
+  {
+    "id": "extra-factory-balls-forever",
+    "title": "Factory Balls Forever",
+    "file": "./games/factory-balls-forever/index.html",
+    "cover": "./games/factory-balls-forever/icon.png",
+    "desc": "Play Factory Balls Forever."
+  },
+  {
+    "id": "extra-factoryballs",
+    "title": "Factoryballs",
+    "file": "./games/factoryballs/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=factoryballs",
+    "desc": "Play Factoryballs."
+  },
+  {
+    "id": "extra-factoryballsforever",
+    "title": "Factoryballsforever",
+    "file": "./games/factoryballsforever/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=factoryballsforever",
+    "desc": "Play Factoryballsforever."
+  },
+  {
+    "id": "extra-fake-virus",
+    "title": "Fake Virus",
+    "file": "./games/fake-virus/index.html",
+    "cover": "./games/fake-virus/icon.png",
+    "desc": "Play Fake Virus."
   }
 ]
