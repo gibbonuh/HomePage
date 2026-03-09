@@ -1986,5 +1986,75 @@
     "file": "./games/roadblocks/index.html",
     "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=roadblocks",
     "desc": "Play Roadblocks."
+  },
+  {
+    "id": "extra-rocking-sky-trip",
+    "title": "Rocking Sky Trip",
+    "file": "./games/rocking-sky-trip/index.html",
+    "cover": "./games/rocking-sky-trip/icon.jpg",
+    "desc": "Play Rocking Sky Trip."
+  },
+  {
+    "id": "extra-rolling-forests",
+    "title": "Rolling Forests",
+    "file": "./games/rolling-forests/index.html",
+    "cover": "./games/rolling-forests/icon.png",
+    "desc": "Play Rolling Forests."
+  },
+  {
+    "id": "extra-rooftop-snipers",
+    "title": "Rooftop Snipers",
+    "file": "./games/rooftop-snipers/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=rooftop-snipers",
+    "desc": "Play Rooftop Snipers."
+  },
+  {
+    "id": "extra-run3",
+    "title": "Run3",
+    "file": "./games/run3/index.html",
+    "cover": "./games/run3/favicon.png",
+    "desc": "Play Run3."
+  },
+  {
+    "id": "extra-sand-game",
+    "title": "Sand Game",
+    "file": "./games/sand-game/index.html",
+    "cover": "./games/sand-game/sand-game.PNG",
+    "desc": "Play Sand Game."
+  },
+  {
+    "id": "extra-sandboxels",
+    "title": "Sandboxels",
+    "file": "./games/sandboxels/index.html",
+    "cover": "./games/sandboxels/sandboxels.jpg",
+    "desc": "Play Sandboxels."
+  },
+  {
+    "id": "extra-scrambled-eggs",
+    "title": "Scrambled Eggs",
+    "file": "./games/scrambled-eggs/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=scrambled-eggs",
+    "desc": "Play Scrambled Eggs."
+  },
+  {
+    "id": "extra-senya-and-oscar-2",
+    "title": "Senya And Oscar 2",
+    "file": "./games/senya-and-oscar-2/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=senya-and-oscar-2",
+    "desc": "Play Senya And Oscar 2."
+  },
+  {
+    "id": "extra-sg",
+    "title": "Sg",
+    "file": "./games/sg/index.html",
+    "cover": "./games/sg/gears.gif",
+    "desc": "Play Sg."
+  },
+  {
+    "id": "extra-shadow-world-adventure",
+    "title": "Shadow World Adventure",
+    "file": "./games/shadow-world-adventure/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=shadow-world-adventure",
+    "desc": "Play Shadow World Adventure."
   }
 ]
