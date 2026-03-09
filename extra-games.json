@@ -2546,5 +2546,75 @@
     "file": "./games/tosstheturtle/index.html",
     "cover": "./games/tosstheturtle/tosstheturtle.png",
     "desc": "Play Tosstheturtle."
+  },
+  {
+    "id": "extra-tough-growth",
+    "title": "Tough Growth",
+    "file": "./games/tough-growth/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tough-growth",
+    "desc": "Play Tough Growth."
+  },
+  {
+    "id": "extra-towermaster",
+    "title": "Towermaster",
+    "file": "./games/towermaster/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=towermaster",
+    "desc": "Play Towermaster."
+  },
+  {
+    "id": "extra-trimps",
+    "title": "Trimps",
+    "file": "./games/trimps/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=trimps",
+    "desc": "Play Trimps."
+  },
+  {
+    "id": "extra-tube-jumpers",
+    "title": "Tube Jumpers",
+    "file": "./games/tube-jumpers/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tube-jumpers",
+    "desc": "Play Tube Jumpers."
+  },
+  {
+    "id": "extra-tunnel-rush",
+    "title": "Tunnel Rush",
+    "file": "./games/tunnel-rush/index.html",
+    "cover": "./games/tunnel-rush/icon.jpg",
+    "desc": "Play Tunnel Rush."
+  },
+  {
+    "id": "extra-tunnelz",
+    "title": "Tunnelz",
+    "file": "./games/tunnelz/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tunnelz",
+    "desc": "Play Tunnelz."
+  },
+  {
+    "id": "extra-tv-static",
+    "title": "Tv Static",
+    "file": "./games/tv-static/index.html",
+    "cover": "./games/tv-static/static.png",
+    "desc": "Play Tv Static."
+  },
+  {
+    "id": "extra-twitch-tetris",
+    "title": "Twitch Tetris",
+    "file": "./games/twitch-tetris/index.html",
+    "cover": "./games/twitch-tetris/logo.png",
+    "desc": "Play Twitch Tetris."
+  },
+  {
+    "id": "extra-underrun",
+    "title": "Underrun",
+    "file": "./games/underrun/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=underrun",
+    "desc": "Play Underrun."
+  },
+  {
+    "id": "extra-unfold-2",
+    "title": "Unfold 2",
+    "file": "./games/unfold-2/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=unfold-2",
+    "desc": "Play Unfold 2."
   }
 ]
