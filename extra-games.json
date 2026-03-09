@@ -2476,5 +2476,75 @@
     "file": "./games/thebattle/index.html",
     "cover": "./games/thebattle/thebattle.png",
     "desc": "Play Thebattle."
+  },
+  {
+    "id": "extra-theheist",
+    "title": "Theheist",
+    "file": "./games/theheist/index.html",
+    "cover": "./games/theheist/theheist.jpg",
+    "desc": "Play Theheist."
+  },
+  {
+    "id": "extra-themazeofspacegoblins",
+    "title": "Themazeofspacegoblins",
+    "file": "./games/themazeofspacegoblins/index.html",
+    "cover": "./games/themazeofspacegoblins/art.png",
+    "desc": "Play Themazeofspacegoblins."
+  },
+  {
+    "id": "extra-there-is-no-game",
+    "title": "There Is No Game",
+    "file": "./games/there-is-no-game/index.html",
+    "cover": "./games/there-is-no-game/logo.png",
+    "desc": "Play There Is No Game."
+  },
+  {
+    "id": "extra-thisistheonlylevel",
+    "title": "Thisistheonlylevel",
+    "file": "./games/thisistheonlylevel/index.html",
+    "cover": "./games/thisistheonlylevel/thisistheonlylevel.png",
+    "desc": "Play Thisistheonlylevel."
+  },
+  {
+    "id": "extra-time-shooter-3",
+    "title": "Time Shooter 3",
+    "file": "./games/time-shooter-3/index.html",
+    "cover": "./games/time-shooter-3/logo.png",
+    "desc": "Play Time Shooter 3."
+  },
+  {
+    "id": "extra-tiny-fishing",
+    "title": "Tiny Fishing",
+    "file": "./games/tiny-fishing/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tiny-fishing",
+    "desc": "Play Tiny Fishing."
+  },
+  {
+    "id": "extra-tiny-fragments",
+    "title": "Tiny Fragments",
+    "file": "./games/tiny-fragments/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tiny-fragments",
+    "desc": "Play Tiny Fragments."
+  },
+  {
+    "id": "extra-tiny-islands",
+    "title": "Tiny Islands",
+    "file": "./games/tiny-islands/index.html",
+    "cover": "./games/tiny-islands/splash.png",
+    "desc": "Play Tiny Islands."
+  },
+  {
+    "id": "extra-topple-adventure",
+    "title": "Topple Adventure",
+    "file": "./games/topple-adventure/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=topple-adventure",
+    "desc": "Play Topple Adventure."
+  },
+  {
+    "id": "extra-tosstheturtle",
+    "title": "Tosstheturtle",
+    "file": "./games/tosstheturtle/index.html",
+    "cover": "./games/tosstheturtle/tosstheturtle.png",
+    "desc": "Play Tosstheturtle."
   }
 ]
