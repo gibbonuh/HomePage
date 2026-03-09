@@ -1146,5 +1146,75 @@
     "file": "./games/flippy-fish/index.html",
     "cover": "./games/flippy-fish/2022_10_28_0jt_Kleki.png",
     "desc": "Play Flippy Fish."
+  },
+  {
+    "id": "extra-friendlyfire",
+    "title": "Friendlyfire",
+    "file": "./games/friendlyfire/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=friendlyfire",
+    "desc": "Play Friendlyfire."
+  },
+  {
+    "id": "extra-froggys-battle",
+    "title": "Froggys Battle",
+    "file": "./games/froggys-battle/index.html",
+    "cover": "./games/froggys-battle/icon.jpg",
+    "desc": "Play Froggys Battle."
+  },
+  {
+    "id": "extra-frying-nemo",
+    "title": "Frying Nemo",
+    "file": "./games/frying-nemo/index.html",
+    "cover": "./games/frying-nemo/icon.png",
+    "desc": "Play Frying Nemo."
+  },
+  {
+    "id": "extra-game-inside",
+    "title": "Game Inside",
+    "file": "./games/game-inside/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=game-inside",
+    "desc": "Play Game Inside."
+  },
+  {
+    "id": "extra-generic-fishing-game",
+    "title": "Generic Fishing Game",
+    "file": "./games/generic-fishing-game/index.html",
+    "cover": "./games/generic-fishing-game/icon.png",
+    "desc": "Play Generic Fishing Game."
+  },
+  {
+    "id": "extra-geodash",
+    "title": "Geodash",
+    "file": "./games/geodash/index.html",
+    "cover": "./games/geodash/geoscratchicon.png",
+    "desc": "Play Geodash."
+  },
+  {
+    "id": "extra-geodash-2",
+    "title": "Geodash 2",
+    "file": "./games/geodash-2/index.html",
+    "cover": "./games/geodash-2/icon.png",
+    "desc": "Play Geodash 2."
+  },
+  {
+    "id": "extra-geometry-jump-sketchy",
+    "title": "Geometry Jump Sketchy",
+    "file": "./games/geometry_jump_sketchy/index.html",
+    "cover": "./games/geometry_jump_sketchy/icon.jpeg",
+    "desc": "Play Geometry Jump Sketchy."
+  },
+  {
+    "id": "extra-geometrydash",
+    "title": "Geometrydash",
+    "file": "./games/geometrydash/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=geometrydash",
+    "desc": "Play Geometrydash."
+  },
+  {
+    "id": "extra-getting-over-it",
+    "title": "Getting Over It",
+    "file": "./games/getting-over-it/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=getting-over-it",
+    "desc": "Play Getting Over It."
   }
 ]
