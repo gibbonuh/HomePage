@@ -1286,5 +1286,75 @@
     "file": "./games/grindcraft/index.html",
     "cover": "./games/grindcraft/icon.png",
     "desc": "Play Grindcraft."
+  },
+  {
+    "id": "extra-grow-in-the-hole",
+    "title": "Grow In The Hole",
+    "file": "./games/grow-in-the-hole/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=grow-in-the-hole",
+    "desc": "Play Grow In The Hole."
+  },
+  {
+    "id": "extra-gun-mayhem",
+    "title": "Gun Mayhem",
+    "file": "./games/gun-mayhem/index.html",
+    "cover": "./games/gun-mayhem/icon.jpg",
+    "desc": "Play Gun Mayhem."
+  },
+  {
+    "id": "extra-gun-mayhem-2",
+    "title": "Gun Mayhem 2",
+    "file": "./games/gun-mayhem-2/index.html",
+    "cover": "./games/gun-mayhem-2/icon.jpg",
+    "desc": "Play Gun Mayhem 2."
+  },
+  {
+    "id": "extra-gun-mayhem-redux",
+    "title": "Gun Mayhem Redux",
+    "file": "./games/gun-mayhem-redux/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=gun-mayhem-redux",
+    "desc": "Play Gun Mayhem Redux."
+  },
+  {
+    "id": "extra-hackertype",
+    "title": "Hackertype",
+    "file": "./games/hackertype/index.html",
+    "cover": "./games/hackertype/icon.png",
+    "desc": "Play Hackertype."
+  },
+  {
+    "id": "extra-happy-hop",
+    "title": "Happy Hop",
+    "file": "./games/happy-hop/index.html",
+    "cover": "./games/happy-hop/splash.png",
+    "desc": "Play Happy Hop."
+  },
+  {
+    "id": "extra-happy-wheels",
+    "title": "Happy Wheels",
+    "file": "./games/happy-wheels/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=happy-wheels",
+    "desc": "Play Happy Wheels."
+  },
+  {
+    "id": "extra-hba",
+    "title": "Hba",
+    "file": "./games/hba/index.html",
+    "cover": "./games/hba/hoverbotarena.JPG",
+    "desc": "Play Hba."
+  },
+  {
+    "id": "extra-helicopter",
+    "title": "Helicopter",
+    "file": "./games/helicopter/index.html",
+    "cover": "./games/helicopter/helicopter.png",
+    "desc": "Play Helicopter."
+  },
+  {
+    "id": "extra-helios",
+    "title": "Helios",
+    "file": "./games/helios/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=helios",
+    "desc": "Play Helios."
   }
 ]
