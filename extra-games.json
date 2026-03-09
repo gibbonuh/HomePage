@@ -936,5 +936,75 @@
     "file": "./games/doge-mining-simulator/index.html",
     "cover": "./games/doge-mining-simulator/icon.png",
     "desc": "Play Doge Mining Simulator."
+  },
+  {
+    "id": "extra-doge2048",
+    "title": "Doge2048",
+    "file": "./games/doge2048/index.html",
+    "cover": "./games/doge2048/doge1.jpeg",
+    "desc": "Play Doge2048."
+  },
+  {
+    "id": "extra-doublewires",
+    "title": "Doublewires",
+    "file": "./games/doublewires/index.html",
+    "cover": "./games/doublewires/doublewires.png",
+    "desc": "Play Doublewires."
+  },
+  {
+    "id": "extra-douchebag-workout-2",
+    "title": "Douchebag Workout 2",
+    "file": "./games/douchebag-workout-2/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=douchebag-workout-2",
+    "desc": "Play Douchebag Workout 2."
+  },
+  {
+    "id": "extra-dragon-vs-bricks",
+    "title": "Dragon Vs Bricks",
+    "file": "./games/dragon-vs-bricks/index.html",
+    "cover": "./games/dragon-vs-bricks/icon.jpg",
+    "desc": "Play Dragon Vs Bricks."
+  },
+  {
+    "id": "extra-draw-the-hill",
+    "title": "Draw The Hill",
+    "file": "./games/draw-the-hill/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=draw-the-hill",
+    "desc": "Play Draw The Hill."
+  },
+  {
+    "id": "extra-ducklife1",
+    "title": "Ducklife1",
+    "file": "./games/ducklife1/index.html",
+    "cover": "./games/ducklife1/icon.jpg",
+    "desc": "Play Ducklife1."
+  },
+  {
+    "id": "extra-duke-dashington-remastered",
+    "title": "Duke Dashington Remastered",
+    "file": "./games/duke-dashington-remastered/index.html",
+    "cover": "./games/duke-dashington-remastered/icon.png",
+    "desc": "Play Duke Dashington Remastered."
+  },
+  {
+    "id": "extra-dungeon-craft",
+    "title": "Dungeon Craft",
+    "file": "./games/dungeon-craft/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=dungeon-craft",
+    "desc": "Play Dungeon Craft."
+  },
+  {
+    "id": "extra-edge-surf",
+    "title": "Edge Surf",
+    "file": "./games/edge-surf/index.html",
+    "cover": "./games/edge-surf/splash.png",
+    "desc": "Play Edge Surf."
+  },
+  {
+    "id": "extra-edgenotfound",
+    "title": "Edgenotfound",
+    "file": "./games/edgenotfound/index.html",
+    "cover": "./games/edgenotfound/edge.png",
+    "desc": "Play Edgenotfound."
   }
 ]
