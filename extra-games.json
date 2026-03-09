@@ -2056,5 +2056,75 @@
     "file": "./games/shadow-world-adventure/index.html",
     "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=shadow-world-adventure",
     "desc": "Play Shadow World Adventure."
+  },
+  {
+    "id": "extra-shards",
+    "title": "Shards",
+    "file": "./games/shards/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=shards",
+    "desc": "Play Shards."
+  },
+  {
+    "id": "extra-shift-flash",
+    "title": "Shift Flash",
+    "file": "./games/shift-flash/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=shift-flash",
+    "desc": "Play Shift Flash."
+  },
+  {
+    "id": "extra-shift-flash-2",
+    "title": "Shift Flash 2",
+    "file": "./games/shift-flash-2/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=shift-flash-2",
+    "desc": "Play Shift Flash 2."
+  },
+  {
+    "id": "extra-short-life-2",
+    "title": "Short Life 2",
+    "file": "./games/short-life-2/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=short-life-2",
+    "desc": "Play Short Life 2."
+  },
+  {
+    "id": "extra-short-ride",
+    "title": "Short Ride",
+    "file": "./games/short-ride/index.html",
+    "cover": "./games/short-ride/icon.jpg",
+    "desc": "Play Short Ride."
+  },
+  {
+    "id": "extra-shuttledeck",
+    "title": "Shuttledeck",
+    "file": "./games/shuttledeck/index.html",
+    "cover": "./games/shuttledeck/splash.png",
+    "desc": "Play Shuttledeck."
+  },
+  {
+    "id": "extra-skyblock",
+    "title": "Skyblock",
+    "file": "./games/skyblock/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=skyblock",
+    "desc": "Play Skyblock."
+  },
+  {
+    "id": "extra-sleepingbeauty",
+    "title": "Sleepingbeauty",
+    "file": "./games/sleepingbeauty/index.html",
+    "cover": "./games/sleepingbeauty/splash.png",
+    "desc": "Play Sleepingbeauty."
+  },
+  {
+    "id": "extra-slice-of-sasha",
+    "title": "Slice Of Sasha",
+    "file": "./games/slice-of-sasha/index.html",
+    "cover": "./games/slice-of-sasha/icon-256.png",
+    "desc": "Play Slice Of Sasha."
+  },
+  {
+    "id": "extra-slither",
+    "title": "Slither",
+    "file": "./games/slither/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=slither",
+    "desc": "Play Slither."
   }
 ]
