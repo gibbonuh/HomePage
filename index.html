@@ -90,6 +90,17 @@
       font-size: 0.95rem;
     }
 
+    .searchbar {
+      width: min(420px, 100%);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      background: rgba(0, 0, 0, 0.25);
+      color: var(--text);
+      border-radius: 10px;
+      padding: 8px 10px;
+      font-size: 0.9rem;
+      margin-top: 8px;
+    }
+
     .viewer {
       background: transparent;
       border-radius: 12px;
@@ -259,6 +270,7 @@
         <div>
           <h1 id="currentTitle">Game Portal</h1>
           <p class="sub" id="currentDesc">Choose a game below or from the sidebar to play in this page.</p>
+          <input id="gameSearch" class="searchbar" type="search" placeholder="Search games..." />
         </div>
         <button class="btn top-btn" id="viewBtn" type="button">Maximize View</button>
       </div>
@@ -309,15 +321,32 @@
         }
       ];
 
-      var list = document.getElementById("gameList");
       var gameItems = document.getElementById("gameItems");
       var frame = document.getElementById("gameFrame");
       var homeGrid = document.getElementById("homeGrid");
       var currentTitle = document.getElementById("currentTitle");
       var currentDesc = document.getElementById("currentDesc");
       var viewBtn = document.getElementById("viewBtn");
+      var gameSearch = document.getElementById("gameSearch");
       var currentGameFile = "";
+      var currentGameId = "";
       var games = baseGames.slice();
+      var filteredGames = games.slice();
+
+      function placeholderCover(title) {
+        return "https://placehold.co/600x600/1f2937/e5e7eb?text=" + encodeURIComponent(title || "Game");
+      }
+
+      function createCoverImg(game) {
+        var img = document.createElement("img");
+        img.src = game.cover || placeholderCover(game.title);
+        img.alt = game.title + " cover";
+        img.addEventListener("error", function onErr() {
+          img.removeEventListener("error", onErr);
+          img.src = placeholderCover(game.title);
+        });
+        return img;
+      }
 
       function setActive(id) {
         var items = document.querySelectorAll(".game-item");
@@ -332,6 +361,7 @@
 
         frame.src = game.file;
         currentGameFile = game.file;
+        currentGameId = game.id;
         frame.style.display = "block";
         homeGrid.classList.add("hidden");
         currentTitle.textContent = game.title;
@@ -358,34 +388,48 @@
         doc.close();
       }
 
-      function renderSidebar() {
+      function renderSidebar(items) {
         gameItems.innerHTML = "";
-        games.forEach(function (game) {
+        items.forEach(function (game) {
           var item = document.createElement("button");
           item.className = "game-item";
           item.type = "button";
           item.dataset.id = game.id;
-          item.innerHTML =
-            '<img src="' + game.cover + '" alt="' + game.title + ' cover">' +
-            '<div>' +
-              '<p class="game-item-title">' + game.title + '</p>' +
-              '<p class="game-item-desc">' + game.desc + '</p>' +
-            '</div>';
+
+          item.appendChild(createCoverImg(game));
+          var wrap = document.createElement("div");
+          var title = document.createElement("p");
+          title.className = "game-item-title";
+          title.textContent = game.title;
+          var desc = document.createElement("p");
+          desc.className = "game-item-desc";
+          desc.textContent = game.desc;
+          wrap.appendChild(title);
+          wrap.appendChild(desc);
+          item.appendChild(wrap);
+
           item.addEventListener("click", function () {
             openGame(game.id);
           });
           gameItems.appendChild(item);
         });
+        setActive(currentGameId);
       }
 
-      function renderHomeCards() {
-        baseGames.forEach(function (game) {
+      function renderHomeCards(items) {
+        homeGrid.innerHTML = "";
+        items.forEach(function (game) {
           var card = document.createElement("article");
           card.className = "home-card";
-          card.innerHTML =
-            '<img src="' + game.cover + '" alt="' + game.title + ' cover">' +
-            '<h2>' + game.title + '</h2>' +
-            '<p>' + game.desc + '</p>';
+          card.appendChild(createCoverImg(game));
+
+          var title = document.createElement("h2");
+          title.textContent = game.title;
+          card.appendChild(title);
+
+          var desc = document.createElement("p");
+          desc.textContent = game.desc;
+          card.appendChild(desc);
 
           var playBtn = document.createElement("button");
           playBtn.className = "btn";
@@ -400,6 +444,19 @@
         });
       }
 
+      function applySearchFilter() {
+        var q = gameSearch.value.trim().toLowerCase();
+        if (!q) {
+          filteredGames = games.slice();
+        } else {
+          filteredGames = games.filter(function (g) {
+            return g.title.toLowerCase().indexOf(q) !== -1;
+          });
+        }
+        renderSidebar(filteredGames);
+        renderHomeCards(filteredGames);
+      }
+
       function mergeExtraGames(extraGames) {
         var seen = {};
         games.forEach(function (g) { seen[g.file] = true; });
@@ -411,15 +468,16 @@
         });
       }
 
-      renderHomeCards();
-      renderSidebar();
+      renderHomeCards(filteredGames);
+      renderSidebar(filteredGames);
       viewBtn.addEventListener("click", activateBestView);
+      gameSearch.addEventListener("input", applySearchFilter);
 
       fetch("./extra-games.json")
         .then(function (res) { return res.json(); })
         .then(function (extraGames) {
           mergeExtraGames(extraGames);
-          renderSidebar();
+          applySearchFilter();
         })
         .catch(function () {
           // Base games still work if batch file is missing.
