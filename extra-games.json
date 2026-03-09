@@ -1916,5 +1916,75 @@
     "file": "./games/pushback/index.html",
     "cover": "./games/pushback/w.jpg",
     "desc": "Play Pushback."
+  },
+  {
+    "id": "extra-puzzle-ball",
+    "title": "Puzzle Ball",
+    "file": "./games/puzzle-ball/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=puzzle-ball",
+    "desc": "Play Puzzle Ball."
+  },
+  {
+    "id": "extra-pvz-2",
+    "title": "Pvz 2",
+    "file": "./games/pvz-2/index.html",
+    "cover": "./games/pvz-2/icon.jpg",
+    "desc": "Play Pvz 2."
+  },
+  {
+    "id": "extra-q1k3",
+    "title": "Q1k3",
+    "file": "./games/q1k3/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=q1k3",
+    "desc": "Play Q1k3."
+  },
+  {
+    "id": "extra-racer",
+    "title": "Racer",
+    "file": "./games/racer/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=racer",
+    "desc": "Play Racer."
+  },
+  {
+    "id": "extra-radiusraid",
+    "title": "Radiusraid",
+    "file": "./games/radiusraid/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=radiusraid",
+    "desc": "Play Radiusraid."
+  },
+  {
+    "id": "extra-retro-bowl",
+    "title": "Retro Bowl",
+    "file": "./games/retro-bowl/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=retro-bowl",
+    "desc": "Play Retro Bowl."
+  },
+  {
+    "id": "extra-retrobowl",
+    "title": "Retrobowl",
+    "file": "./games/retrobowl/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=retrobowl",
+    "desc": "Play Retrobowl."
+  },
+  {
+    "id": "extra-retrohaunt",
+    "title": "Retrohaunt",
+    "file": "./games/retrohaunt/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=retrohaunt",
+    "desc": "Play Retrohaunt."
+  },
+  {
+    "id": "extra-rise-of-neon-square",
+    "title": "Rise Of Neon Square",
+    "file": "./games/rise-of-neon-square/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=rise-of-neon-square",
+    "desc": "Play Rise Of Neon Square."
+  },
+  {
+    "id": "extra-roadblocks",
+    "title": "Roadblocks",
+    "file": "./games/roadblocks/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=roadblocks",
+    "desc": "Play Roadblocks."
   }
 ]
