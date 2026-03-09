@@ -305,9 +305,8 @@
       var homeGrid = document.getElementById("homeGrid");
       var currentTitle = document.getElementById("currentTitle");
       var currentDesc = document.getElementById("currentDesc");
-      var viewer = document.querySelector(".viewer");
       var viewBtn = document.getElementById("viewBtn");
-      var isMaximized = false;
+      var currentGameFile = "";
 
       function setActive(id) {
         var items = document.querySelectorAll(".game-item");
@@ -321,6 +320,7 @@
         if (!game) return;
 
         frame.src = game.file;
+        currentGameFile = game.file;
         frame.style.display = "block";
         homeGrid.classList.add("hidden");
         currentTitle.textContent = game.title;
@@ -328,41 +328,23 @@
         setActive(id);
       }
 
-      function setMaximizedState(enabled) {
-        isMaximized = enabled;
-        document.body.classList.toggle("maximized", enabled);
-        viewBtn.classList.toggle("is-active", enabled);
-        viewBtn.textContent = enabled ? "Exit Max View" : "Maximize View";
-      }
+      function activateBestView() {
+        if (!currentGameFile) return;
 
-      async function openFullscreen() {
-        if (frame.style.display === "none") return;
-        try {
-          if (!document.fullscreenElement) {
-            await viewer.requestFullscreen();
-          } else {
-            await document.exitFullscreen();
-          }
-        } catch (err) {
-          // Ignore fullscreen errors if browser blocks it (common in Google Sites embeds).
-        }
-      }
+        var popup = window.open("about:blank", "_blank");
+        if (!popup) return;
 
-      async function activateBestView() {
-        if (frame.style.display === "none") return;
-
-        if (!isMaximized) {
-          setMaximizedState(true);
-        } else {
-          setMaximizedState(false);
-          if (document.fullscreenElement) {
-            try { await document.exitFullscreen(); } catch (err) {}
-          }
-          return;
-        }
-
-        // Try true fullscreen when possible; if blocked, max view still remains active.
-        await openFullscreen();
+        var doc = popup.document;
+        var safeSrc = String(currentGameFile).replace(/"/g, "&quot;");
+        doc.open();
+        doc.write(
+          '<!doctype html><html><head><meta charset="utf-8">' +
+          '<meta name="viewport" content="width=device-width, initial-scale=1">' +
+          '<title>Game View</title>' +
+          '<style>html,body{margin:0;height:100%;background:#000}iframe{border:0;width:100%;height:100%}</style>' +
+          '</head><body><iframe src="' + safeSrc + '" allow="fullscreen; autoplay"></iframe></body></html>'
+        );
+        doc.close();
       }
 
       function renderSidebar() {
