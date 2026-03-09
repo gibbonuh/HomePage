@@ -2336,5 +2336,75 @@
     "file": "./games/stickman-golf/index.html",
     "cover": "./games/stickman-golf/splash.png",
     "desc": "Play Stickman Golf."
+  },
+  {
+    "id": "extra-stickwar",
+    "title": "Stickwar",
+    "file": "./games/stickwar/index.html",
+    "cover": "./games/stickwar/stickwar.jpg",
+    "desc": "Play Stickwar."
+  },
+  {
+    "id": "extra-stormthehouse2",
+    "title": "Stormthehouse2",
+    "file": "./games/stormthehouse2/index.html",
+    "cover": "./games/stormthehouse2/stormthehouse2.jpg",
+    "desc": "Play Stormthehouse2."
+  },
+  {
+    "id": "extra-subway-surfers-bali",
+    "title": "Subway Surfers Bali",
+    "file": "./games/subway-surfers-bali/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=subway-surfers-bali",
+    "desc": "Play Subway Surfers Bali."
+  },
+  {
+    "id": "extra-super-mario-maker-online",
+    "title": "Super Mario Maker Online",
+    "file": "./games/super-mario-maker-online/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=super-mario-maker-online",
+    "desc": "Play Super Mario Maker Online."
+  },
+  {
+    "id": "extra-super-puffer-fish-3d",
+    "title": "Super Puffer Fish 3d",
+    "file": "./games/super-puffer-fish-3d/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=super-puffer-fish-3d",
+    "desc": "Play Super Puffer Fish 3d."
+  },
+  {
+    "id": "extra-superhero-io",
+    "title": "Superhero Io",
+    "file": "./games/superhero-io/index.html",
+    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=superhero-io",
+    "desc": "Play Superhero Io."
+  },
+  {
+    "id": "extra-superhot",
+    "title": "Superhot",
+    "file": "./games/superhot/index.html",
+    "cover": "./games/superhot/hot.jpg",
+    "desc": "Play Superhot."
+  },
+  {
+    "id": "extra-swerve",
+    "title": "Swerve",
+    "file": "./games/swerve/index.html",
+    "cover": "./games/swerve/play_text_252_white.png",
+    "desc": "Play Swerve."
+  },
+  {
+    "id": "extra-tactical-weapon-pack-2",
+    "title": "Tactical Weapon Pack 2",
+    "file": "./games/tactical-weapon-pack-2/index.html",
+    "cover": "./games/tactical-weapon-pack-2/icon.png",
+    "desc": "Play Tactical Weapon Pack 2."
+  },
+  {
+    "id": "extra-tacticalassasin2",
+    "title": "Tacticalassasin2",
+    "file": "./games/tacticalassasin2/index.html",
+    "cover": "./games/tacticalassasin2/tacticalassassin2.png",
+    "desc": "Play Tacticalassasin2."
   }
 ]
