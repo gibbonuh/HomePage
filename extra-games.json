@@ -10,14 +10,14 @@
     "id": "extra-chrome-dino",
     "title": "Chrome Dino",
     "file": "./games/chrome-dino/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=chrome-dino",
+    "cover": "./games/chrome-dino/icons/icon-16.png",
     "desc": "Play Chrome Dino."
   },
   {
     "id": "extra-flappy-bird",
     "title": "Flappy Bird",
     "file": "./games/flappy-bird/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=flappy-bird",
+    "cover": "./games/flappy-bird/assets/thumb.png",
     "desc": "Play Flappy Bird."
   },
   {
@@ -31,14 +31,14 @@
     "id": "extra-hextris",
     "title": "Hextris",
     "file": "./games/hextris/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=hextris",
+    "cover": "./games/hextris/images/hextris-logo.png",
     "desc": "Play Hextris."
   },
   {
     "id": "extra-minesweeper",
     "title": "Minesweeper",
     "file": "./games/minesweeper/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=minesweeper",
+    "cover": "./games/minesweeper/img/minesweeper.png",
     "desc": "Play Minesweeper."
   },
   {
@@ -87,21 +87,21 @@
     "id": "extra-paper-io-2",
     "title": "Paper.io 2",
     "file": "./paper-io-2.html",
-    "cover": "https://placehold.co/600x600/0f3d52/e5e7eb?text=Paper.io+2",
+    "cover": "https://source.unsplash.com/600x600/?Paper.io+2+video+game+cover",
     "desc": "Play Paper.io 2."
   },
   {
     "id": "extra-asteroids",
     "title": "Asteroids",
     "file": "./games/asteroids/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=asteroids",
+    "cover": "https://source.unsplash.com/600x600/?Asteroids+video+game+cover",
     "desc": "Play Asteroids."
   },
   {
     "id": "extra-chess",
     "title": "Chess",
     "file": "./games/chess/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=chess",
+    "cover": "./games/chess/icons/stop.png",
     "desc": "Play Chess."
   },
   {
@@ -115,7 +115,7 @@
     "id": "extra-cubefield",
     "title": "Cubefield",
     "file": "./games/cubefield/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=cubefield",
+    "cover": "./games/cubefield/assets/splash.png",
     "desc": "Play Cubefield."
   },
   {
@@ -143,7 +143,7 @@
     "id": "extra-om-bounce",
     "title": "Om Bounce",
     "file": "./games/om-bounce/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=om-bounce",
+    "cover": "./games/om-bounce/assets/icon.jpeg",
     "desc": "Play Om Bounce."
   },
   {
@@ -157,7 +157,7 @@
     "id": "extra-gunspin",
     "title": "Gunspin",
     "file": "./games/gunspin/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=gunspin",
+    "cover": "./games/gunspin/style/progressLogo.Dark.png",
     "desc": "Play Gunspin."
   },
   {
@@ -171,7 +171,7 @@
     "id": "extra-ducklife",
     "title": "Ducklife",
     "file": "./games/ducklife/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=ducklife",
+    "cover": "https://source.unsplash.com/600x600/?Ducklife+video+game+cover",
     "desc": "Play Ducklife."
   },
   {
@@ -199,7 +199,7 @@
     "id": "extra-flood-runner-2",
     "title": "Flood Runner 2",
     "file": "./games/flood-runner-2/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=flood-runner-2",
+    "cover": "https://source.unsplash.com/600x600/?Flood+Runner+2+video+game+cover",
     "desc": "Play Flood Runner 2."
   },
   {
@@ -227,7 +227,7 @@
     "id": "extra-icys-purple-head",
     "title": "Icys Purple Head",
     "file": "./games/icys-purple-head/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=icys-purple-head",
+    "cover": "./games/icys-purple-head/images/costumeicon-sheet0.png",
     "desc": "Play Icys Purple Head."
   },
   {
@@ -262,7 +262,7 @@
     "id": "extra-backcountry",
     "title": "Backcountry",
     "file": "./games/backcountry/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=backcountry",
+    "cover": "https://source.unsplash.com/600x600/?Backcountry+video+game+cover",
     "desc": "Play Backcountry."
   },
   {
@@ -290,7 +290,7 @@
     "id": "extra-breakout",
     "title": "Breakout",
     "file": "./games/breakout/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=breakout",
+    "cover": "./games/breakout/images/paving.jpg",
     "desc": "Play Breakout."
   },
   {
@@ -311,21 +311,21 @@
     "id": "extra-dadish",
     "title": "Dadish",
     "file": "./games/dadish/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=dadish",
+    "cover": "https://source.unsplash.com/600x600/?Dadish+video+game+cover",
     "desc": "Play Dadish."
   },
   {
     "id": "extra-dadishtwo",
     "title": "Dadishtwo",
     "file": "./games/dadishtwo/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=dadishtwo",
+    "cover": "https://source.unsplash.com/600x600/?Dadishtwo+video+game+cover",
     "desc": "Play Dadishtwo."
   },
   {
     "id": "extra-dadish3",
     "title": "Dadish3",
     "file": "./games/dadish3/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=dadish3",
+    "cover": "https://source.unsplash.com/600x600/?Dadish3+video+game+cover",
     "desc": "Play Dadish3."
   },
   {
@@ -367,7 +367,7 @@
     "id": "extra-evilglitch",
     "title": "Evilglitch",
     "file": "./games/evilglitch/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=evilglitch",
+    "cover": "https://source.unsplash.com/600x600/?Evilglitch+video+game+cover",
     "desc": "Play Evilglitch."
   },
   {
@@ -381,7 +381,7 @@
     "id": "extra-1",
     "title": "1",
     "file": "./games/1/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=1",
+    "cover": "./games/1/meta/apple-touch-icon.png",
     "desc": "Play 1."
   },
   {
@@ -437,7 +437,7 @@
     "id": "extra-dogeminer",
     "title": "Dogeminer",
     "file": "./games/DogeMiner/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=DogeMiner",
+    "cover": "./games/DogeMiner/img/level1.png",
     "desc": "Play Dogeminer."
   },
   {
@@ -451,7 +451,7 @@
     "id": "extra-offlineparadise",
     "title": "Offlineparadise",
     "file": "./games/OfflineParadise/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=OfflineParadise",
+    "cover": "./games/OfflineParadise/assets/icon.jpeg",
     "desc": "Play Offlineparadise."
   },
   {
@@ -479,7 +479,7 @@
     "id": "extra-alien-invaders-io",
     "title": "Alien Invaders Io",
     "file": "./games/alien-invaders-io/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=alien-invaders-io",
+    "cover": "./games/alien-invaders-io/style/webgl-logo.png",
     "desc": "Play Alien Invaders Io."
   },
   {
@@ -493,7 +493,7 @@
     "id": "extra-align-4",
     "title": "Align 4",
     "file": "./games/align-4/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=align-4",
+    "cover": "./games/align-4/img/board.png",
     "desc": "Play Align 4."
   },
   {
@@ -507,7 +507,7 @@
     "id": "extra-angry-birds",
     "title": "Angry Birds",
     "file": "./games/angry-birds/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=angry-birds",
+    "cover": "./games/angry-birds/sprites/bg.png",
     "desc": "Play Angry Birds."
   },
   {
@@ -528,7 +528,7 @@
     "id": "extra-asciispace",
     "title": "Asciispace",
     "file": "./games/asciispace/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=asciispace",
+    "cover": "https://source.unsplash.com/600x600/?Asciispace+video+game+cover",
     "desc": "Play Asciispace."
   },
   {
@@ -563,7 +563,7 @@
     "id": "extra-basketball-io",
     "title": "Basketball Io",
     "file": "./games/basketball-io/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=basketball-io",
+    "cover": "./games/basketball-io/TemplateData/logo.png",
     "desc": "Play Basketball Io."
   },
   {
@@ -577,7 +577,7 @@
     "id": "extra-basketball-stars",
     "title": "Basketball Stars",
     "file": "./games/basketball-stars/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=basketball-stars",
+    "cover": "./games/basketball-stars/assets/atlases/x1/preloader.png",
     "desc": "Play Basketball Stars."
   },
   {
@@ -598,7 +598,7 @@
     "id": "extra-binding-of-isaac",
     "title": "Binding Of Isaac",
     "file": "./games/binding-of-isaac/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=binding-of-isaac",
+    "cover": "https://source.unsplash.com/600x600/?Binding+Of+Isaac+video+game+cover",
     "desc": "Play Binding Of Isaac."
   },
   {
@@ -682,14 +682,14 @@
     "id": "extra-breaklock",
     "title": "Breaklock",
     "file": "./games/breaklock/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=breaklock",
+    "cover": "./games/breaklock/assets/icons/icon-144x144.png",
     "desc": "Play Breaklock."
   },
   {
     "id": "extra-btd4",
     "title": "Btd4",
     "file": "./games/btd4/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=btd4",
+    "cover": "./games/btd4/lib/bloontowerdefense4/1361.jpg",
     "desc": "Play Btd4."
   },
   {
@@ -710,7 +710,7 @@
     "id": "extra-cannon-basketball-4",
     "title": "Cannon Basketball 4",
     "file": "./games/cannon-basketball-4/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=cannon-basketball-4",
+    "cover": "./games/cannon-basketball-4/img/splash.png",
     "desc": "Play Cannon Basketball 4."
   },
   {
@@ -724,7 +724,7 @@
     "id": "extra-captaincallisto",
     "title": "Captaincallisto",
     "file": "./games/captaincallisto/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=captaincallisto",
+    "cover": "https://source.unsplash.com/600x600/?Captaincallisto+video+game+cover",
     "desc": "Play Captaincallisto."
   },
   {
@@ -738,7 +738,7 @@
     "id": "extra-cell-machine",
     "title": "Cell Machine",
     "file": "./games/cell-machine/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=cell-machine",
+    "cover": "./games/cell-machine/img/icon.png",
     "desc": "Play Cell Machine."
   },
   {
@@ -752,28 +752,28 @@
     "id": "extra-chill-radio",
     "title": "Chill Radio",
     "file": "./games/chill-radio/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=chill-radio",
+    "cover": "./games/chill-radio/img/icon.png",
     "desc": "Play Chill Radio."
   },
   {
     "id": "extra-chromaincident",
     "title": "Chromaincident",
     "file": "./games/chromaincident/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=chromaincident",
+    "cover": "https://source.unsplash.com/600x600/?Chromaincident+video+game+cover",
     "desc": "Play Chromaincident."
   },
   {
     "id": "extra-chromedino",
     "title": "Chromedino",
     "file": "./games/chromedino/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=chromedino",
+    "cover": "https://source.unsplash.com/600x600/?Chromedino+video+game+cover",
     "desc": "Play Chromedino."
   },
   {
     "id": "extra-circlo",
     "title": "Circlo",
     "file": "./games/circlo/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=circlo",
+    "cover": "./games/circlo/img/icon.png",
     "desc": "Play Circlo."
   },
   {
@@ -801,14 +801,14 @@
     "id": "extra-cookieclicker",
     "title": "Cookieclicker",
     "file": "./games/cookieclicker/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=cookieclicker",
+    "cover": "./games/cookieclicker/img/icons.png",
     "desc": "Play Cookieclicker."
   },
   {
     "id": "extra-craftmine",
     "title": "Craftmine",
     "file": "./games/craftmine/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=craftmine",
+    "cover": "./games/craftmine/images/bg_cover-sheet0.png",
     "desc": "Play Craftmine."
   },
   {
@@ -829,7 +829,7 @@
     "id": "extra-csgo-clicker",
     "title": "Csgo Clicker",
     "file": "./games/csgo-clicker/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=csgo-clicker",
+    "cover": "./games/csgo-clicker/images/case1.png",
     "desc": "Play Csgo Clicker."
   },
   {
@@ -885,7 +885,7 @@
     "id": "extra-death-run-3d",
     "title": "Death Run 3d",
     "file": "./games/death-run-3d/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=death-run-3d",
+    "cover": "./games/death-run-3d/TemplateData/y8-logo.png",
     "desc": "Play Death Run 3d."
   },
   {
@@ -899,7 +899,7 @@
     "id": "extra-deathrun",
     "title": "Deathrun",
     "file": "./games/deathrun/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=deathrun",
+    "cover": "./games/deathrun/TemplateData/y8-logo.png",
     "desc": "Play Deathrun."
   },
   {
@@ -913,7 +913,7 @@
     "id": "extra-dino",
     "title": "Dino",
     "file": "./games/dino/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=dino",
+    "cover": "./games/dino/icons/icon-16.png",
     "desc": "Play Dino."
   },
   {
@@ -955,7 +955,7 @@
     "id": "extra-douchebag-workout-2",
     "title": "Douchebag Workout 2",
     "file": "./games/douchebag-workout-2/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=douchebag-workout-2",
+    "cover": "https://source.unsplash.com/600x600/?Douchebag+Workout+2+video+game+cover",
     "desc": "Play Douchebag Workout 2."
   },
   {
@@ -969,7 +969,7 @@
     "id": "extra-draw-the-hill",
     "title": "Draw The Hill",
     "file": "./games/draw-the-hill/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=draw-the-hill",
+    "cover": "./games/draw-the-hill/icons/icon-512.png",
     "desc": "Play Draw The Hill."
   },
   {
@@ -990,7 +990,7 @@
     "id": "extra-dungeon-craft",
     "title": "Dungeon Craft",
     "file": "./games/dungeon-craft/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=dungeon-craft",
+    "cover": "./games/dungeon-craft/media/health-icon.png",
     "desc": "Play Dungeon Craft."
   },
   {
@@ -1046,7 +1046,7 @@
     "id": "extra-exo",
     "title": "Exo",
     "file": "./games/exo/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=exo",
+    "cover": "./games/exo/img/small.jpg",
     "desc": "Play Exo."
   },
   {
@@ -1060,14 +1060,14 @@
     "id": "extra-factoryballs",
     "title": "Factoryballs",
     "file": "./games/factoryballs/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=factoryballs",
+    "cover": "./games/factoryballs/images/splash.png",
     "desc": "Play Factoryballs."
   },
   {
     "id": "extra-factoryballsforever",
     "title": "Factoryballsforever",
     "file": "./games/factoryballsforever/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=factoryballsforever",
+    "cover": "./games/factoryballsforever/images/factoryballsforever_atlas_.png",
     "desc": "Play Factoryballsforever."
   },
   {
@@ -1102,7 +1102,7 @@
     "id": "extra-fireice",
     "title": "Fireice",
     "file": "./games/fireice/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=fireice",
+    "cover": "https://source.unsplash.com/600x600/?Fireice+video+game+cover",
     "desc": "Play Fireice."
   },
   {
@@ -1116,7 +1116,7 @@
     "id": "extra-flappy-2048",
     "title": "Flappy 2048",
     "file": "./games/flappy-2048/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=flappy-2048",
+    "cover": "./games/flappy-2048/meta/apple-touch-icon.png",
     "desc": "Play Flappy 2048."
   },
   {
@@ -1130,7 +1130,7 @@
     "id": "extra-flappybird",
     "title": "Flappybird",
     "file": "./games/flappybird/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=flappybird",
+    "cover": "https://source.unsplash.com/600x600/?Flappybird+video+game+cover",
     "desc": "Play Flappybird."
   },
   {
@@ -1151,7 +1151,7 @@
     "id": "extra-friendlyfire",
     "title": "Friendlyfire",
     "file": "./games/friendlyfire/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=friendlyfire",
+    "cover": "./games/friendlyfire/assets/sprites/flameicon.png",
     "desc": "Play Friendlyfire."
   },
   {
@@ -1172,7 +1172,7 @@
     "id": "extra-game-inside",
     "title": "Game Inside",
     "file": "./games/game-inside/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=game-inside",
+    "cover": "./games/game-inside/img/icon.png",
     "desc": "Play Game Inside."
   },
   {
@@ -1207,14 +1207,14 @@
     "id": "extra-geometrydash",
     "title": "Geometrydash",
     "file": "./games/geometrydash/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=geometrydash",
+    "cover": "https://source.unsplash.com/600x600/?Geometrydash+video+game+cover",
     "desc": "Play Geometrydash."
   },
   {
     "id": "extra-getting-over-it",
     "title": "Getting Over It",
     "file": "./games/getting-over-it/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=getting-over-it",
+    "cover": "https://source.unsplash.com/600x600/?Getting+Over+It+video+game+cover",
     "desc": "Play Getting Over It."
   },
   {
@@ -1249,14 +1249,14 @@
     "id": "extra-google-snake",
     "title": "Google Snake",
     "file": "./games/google-snake/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=google-snake",
+    "cover": "./games/google-snake/img/snake.png",
     "desc": "Play Google Snake."
   },
   {
     "id": "extra-gopher",
     "title": "Gopher",
     "file": "./games/gopher/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=gopher",
+    "cover": "./games/gopher/assets/gopherkartlogo.png",
     "desc": "Play Gopher."
   },
   {
@@ -1291,7 +1291,7 @@
     "id": "extra-grow-in-the-hole",
     "title": "Grow In The Hole",
     "file": "./games/grow-in-the-hole/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=grow-in-the-hole",
+    "cover": "./games/grow-in-the-hole/TemplateData/webgl-logo.png",
     "desc": "Play Grow In The Hole."
   },
   {
@@ -1312,7 +1312,7 @@
     "id": "extra-gun-mayhem-redux",
     "title": "Gun Mayhem Redux",
     "file": "./games/gun-mayhem-redux/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=gun-mayhem-redux",
+    "cover": "https://source.unsplash.com/600x600/?Gun+Mayhem+Redux+video+game+cover",
     "desc": "Play Gun Mayhem Redux."
   },
   {
@@ -1333,7 +1333,7 @@
     "id": "extra-happy-wheels",
     "title": "Happy Wheels",
     "file": "./games/happy-wheels/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=happy-wheels",
+    "cover": "./games/happy-wheels/assets/animate/backgrounds/backgrounds_atlas_2.png",
     "desc": "Play Happy Wheels."
   },
   {
@@ -1354,7 +1354,7 @@
     "id": "extra-helios",
     "title": "Helios",
     "file": "./games/helios/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=helios",
+    "cover": "https://source.unsplash.com/600x600/?Helios+video+game+cover",
     "desc": "Play Helios."
   },
   {
@@ -1368,7 +1368,7 @@
     "id": "extra-idle-breakout",
     "title": "Idle Breakout",
     "file": "./games/idle-breakout/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=idle-breakout",
+    "cover": "./games/idle-breakout/img/thumbnail.png",
     "desc": "Play Idle Breakout."
   },
   {
@@ -1403,21 +1403,21 @@
     "id": "extra-jelly-truck",
     "title": "Jelly Truck",
     "file": "./games/jelly-truck/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=jelly-truck",
+    "cover": "./games/jelly-truck/assets/truck/truck3_icon.png",
     "desc": "Play Jelly Truck."
   },
   {
     "id": "extra-jetpack",
     "title": "Jetpack",
     "file": "./games/jetpack/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=jetpack",
+    "cover": "./games/jetpack/img/rotate-screen.1507367.png",
     "desc": "Play Jetpack."
   },
   {
     "id": "extra-jimothy-piggerton",
     "title": "Jimothy Piggerton",
     "file": "./games/jimothy-piggerton/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=jimothy-piggerton",
+    "cover": "./games/jimothy-piggerton/JimothyPiggertonCompiled/Images/JPFINAL.png",
     "desc": "Play Jimothy Piggerton."
   },
   {
@@ -1459,14 +1459,14 @@
     "id": "extra-konnekt",
     "title": "Konnekt",
     "file": "./games/konnekt/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=konnekt",
+    "cover": "https://source.unsplash.com/600x600/?Konnekt+video+game+cover",
     "desc": "Play Konnekt."
   },
   {
     "id": "extra-krunker",
     "title": "Krunker",
     "file": "./games/krunker/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=krunker",
+    "cover": "./games/krunker/img/favicon.png",
     "desc": "Play Krunker."
   },
   {
@@ -1487,7 +1487,7 @@
     "id": "extra-line-rider",
     "title": "Line Rider",
     "file": "./games/line-rider/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=line-rider",
+    "cover": "https://source.unsplash.com/600x600/?Line+Rider+video+game+cover",
     "desc": "Play Line Rider."
   },
   {
@@ -1501,14 +1501,14 @@
     "id": "extra-madalin-stunt-cars-2",
     "title": "Madalin Stunt Cars 2",
     "file": "./games/madalin-stunt-cars-2/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=madalin-stunt-cars-2",
+    "cover": "./games/madalin-stunt-cars-2/img/logo.jpg",
     "desc": "Play Madalin Stunt Cars 2."
   },
   {
     "id": "extra-makeitmeme",
     "title": "Makeitmeme",
     "file": "./games/makeitmeme/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=makeitmeme",
+    "cover": "https://source.unsplash.com/600x600/?Makeitmeme+video+game+cover",
     "desc": "Play Makeitmeme."
   },
   {
@@ -1536,7 +1536,7 @@
     "id": "extra-mc1-5-2",
     "title": "Mc1.5.2",
     "file": "./games/mc1.5.2/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=mc1.5.2",
+    "cover": "https://source.unsplash.com/600x600/?Mc1.5.2+video+game+cover",
     "desc": "Play Mc1.5.2."
   },
   {
@@ -1550,14 +1550,14 @@
     "id": "extra-mcbeta1-3",
     "title": "Mcbeta1.3",
     "file": "./games/mcbeta1.3/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=mcbeta1.3",
+    "cover": "https://source.unsplash.com/600x600/?Mcbeta1.3+video+game+cover",
     "desc": "Play Mcbeta1.3."
   },
   {
     "id": "extra-meat-boy",
     "title": "Meat Boy",
     "file": "./games/meat-boy/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=meat-boy",
+    "cover": "https://source.unsplash.com/600x600/?Meat+Boy+video+game+cover",
     "desc": "Play Meat Boy."
   },
   {
@@ -1648,21 +1648,21 @@
     "id": "extra-motox3m2",
     "title": "Motox3m2",
     "file": "./games/motox3m2/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=motox3m2",
+    "cover": "./games/motox3m2/assets/atlases/x1/theme2.png",
     "desc": "Play Motox3m2."
   },
   {
     "id": "extra-motox3mwinter",
     "title": "Motox3mwinter",
     "file": "./games/motox3mwinter/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=motox3mwinter",
+    "cover": "./games/motox3mwinter/assets/atlases/x1/theme0.png",
     "desc": "Play Motox3mwinter."
   },
   {
     "id": "extra-my-friend-pedro",
     "title": "My Friend Pedro",
     "file": "./games/my-friend-pedro/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=my-friend-pedro",
+    "cover": "https://source.unsplash.com/600x600/?My+Friend+Pedro+video+game+cover",
     "desc": "Play My Friend Pedro."
   },
   {
@@ -1711,7 +1711,7 @@
     "id": "extra-osu",
     "title": "Osu",
     "file": "./games/osu/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=osu",
+    "cover": "./games/osu/src/images/osw-background.png",
     "desc": "Play Osu."
   },
   {
@@ -1725,7 +1725,7 @@
     "id": "extra-packabunchas",
     "title": "Packabunchas",
     "file": "./games/packabunchas/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=packabunchas",
+    "cover": "https://source.unsplash.com/600x600/?Packabunchas+video+game+cover",
     "desc": "Play Packabunchas."
   },
   {
@@ -1753,49 +1753,49 @@
     "id": "extra-papas-burgeria",
     "title": "Papas Burgeria",
     "file": "./games/papas-burgeria/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-burgeria",
+    "cover": "https://source.unsplash.com/600x600/?Papas+Burgeria+video+game+cover",
     "desc": "Play Papas Burgeria."
   },
   {
     "id": "extra-papas-freezeria",
     "title": "Papas Freezeria",
     "file": "./games/papas-freezeria/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-freezeria",
+    "cover": "https://source.unsplash.com/600x600/?Papas+Freezeria+video+game+cover",
     "desc": "Play Papas Freezeria."
   },
   {
     "id": "extra-papas-hot-doggeria",
     "title": "Papas Hot Doggeria",
     "file": "./games/papas-hot-doggeria/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-hot-doggeria",
+    "cover": "https://source.unsplash.com/600x600/?Papas+Hot+Doggeria+video+game+cover",
     "desc": "Play Papas Hot Doggeria."
   },
   {
     "id": "extra-papas-pancakeria",
     "title": "Papas Pancakeria",
     "file": "./games/papas-pancakeria/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-pancakeria",
+    "cover": "https://source.unsplash.com/600x600/?Papas+Pancakeria+video+game+cover",
     "desc": "Play Papas Pancakeria."
   },
   {
     "id": "extra-papas-pizzeria",
     "title": "Papas Pizzeria",
     "file": "./games/papas-pizzeria/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-pizzeria",
+    "cover": "https://source.unsplash.com/600x600/?Papas+Pizzeria+video+game+cover",
     "desc": "Play Papas Pizzeria."
   },
   {
     "id": "extra-papas-sushiria",
     "title": "Papas Sushiria",
     "file": "./games/papas-sushiria/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-sushiria",
+    "cover": "https://source.unsplash.com/600x600/?Papas+Sushiria+video+game+cover",
     "desc": "Play Papas Sushiria."
   },
   {
     "id": "extra-papas-wingeria",
     "title": "Papas Wingeria",
     "file": "./games/papas-wingeria/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=papas-wingeria",
+    "cover": "https://source.unsplash.com/600x600/?Papas+Wingeria+video+game+cover",
     "desc": "Play Papas Wingeria."
   },
   {
@@ -1816,7 +1816,7 @@
     "id": "extra-paperio2",
     "title": "Paperio2",
     "file": "./games/paperio2/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=paperio2",
+    "cover": "./games/paperio2/images/icon512.png",
     "desc": "Play Paperio2."
   },
   {
@@ -1830,14 +1830,14 @@
     "id": "extra-particle-clicker",
     "title": "Particle Clicker",
     "file": "./games/particle-clicker/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=particle-clicker",
+    "cover": "./games/particle-clicker/assets/favicon.png",
     "desc": "Play Particle Clicker."
   },
   {
     "id": "extra-particleclicker",
     "title": "Particleclicker",
     "file": "./games/particleclicker/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=particleclicker",
+    "cover": "./games/particleclicker/assets/favicon.png",
     "desc": "Play Particleclicker."
   },
   {
@@ -1851,21 +1851,21 @@
     "id": "extra-pe-noire",
     "title": "Pe Noire",
     "file": "./games/pe-noire/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=pe-noire",
+    "cover": "./games/pe-noire/html5game/PE Noire_texture_0.png",
     "desc": "Play Pe Noire."
   },
   {
     "id": "extra-pikwip",
     "title": "Pikwip",
     "file": "./games/pikwip/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=pikwip",
+    "cover": "https://source.unsplash.com/600x600/?Pikwip+video+game+cover",
     "desc": "Play Pikwip."
   },
   {
     "id": "extra-pixel-cave",
     "title": "Pixel Cave",
     "file": "./games/pixel-cave/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=pixel-cave",
+    "cover": "./games/pixel-cave/data/yard.png",
     "desc": "Play Pixel Cave."
   },
   {
@@ -1921,7 +1921,7 @@
     "id": "extra-puzzle-ball",
     "title": "Puzzle Ball",
     "file": "./games/puzzle-ball/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=puzzle-ball",
+    "cover": "./games/puzzle-ball/media/graphics/opening/m_icon.png",
     "desc": "Play Puzzle Ball."
   },
   {
@@ -1935,56 +1935,56 @@
     "id": "extra-q1k3",
     "title": "Q1k3",
     "file": "./games/q1k3/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=q1k3",
+    "cover": "https://source.unsplash.com/600x600/?Q1k3+video+game+cover",
     "desc": "Play Q1k3."
   },
   {
     "id": "extra-racer",
     "title": "Racer",
     "file": "./games/racer/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=racer",
+    "cover": "./games/racer/images/sprites.png",
     "desc": "Play Racer."
   },
   {
     "id": "extra-radiusraid",
     "title": "Radiusraid",
     "file": "./games/radiusraid/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=radiusraid",
+    "cover": "https://source.unsplash.com/600x600/?Radiusraid+video+game+cover",
     "desc": "Play Radiusraid."
   },
   {
     "id": "extra-retro-bowl",
     "title": "Retro Bowl",
     "file": "./games/retro-bowl/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=retro-bowl",
+    "cover": "./games/retro-bowl/img/icon.jpg",
     "desc": "Play Retro Bowl."
   },
   {
     "id": "extra-retrobowl",
     "title": "Retrobowl",
     "file": "./games/retrobowl/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=retrobowl",
+    "cover": "./games/retrobowl/retro-bowl-main/img/icon.jpg",
     "desc": "Play Retrobowl."
   },
   {
     "id": "extra-retrohaunt",
     "title": "Retrohaunt",
     "file": "./games/retrohaunt/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=retrohaunt",
+    "cover": "https://source.unsplash.com/600x600/?Retrohaunt+video+game+cover",
     "desc": "Play Retrohaunt."
   },
   {
     "id": "extra-rise-of-neon-square",
     "title": "Rise Of Neon Square",
     "file": "./games/rise-of-neon-square/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=rise-of-neon-square",
+    "cover": "./games/rise-of-neon-square/TemplateData/webgl-logo.png",
     "desc": "Play Rise Of Neon Square."
   },
   {
     "id": "extra-roadblocks",
     "title": "Roadblocks",
     "file": "./games/roadblocks/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=roadblocks",
+    "cover": "https://source.unsplash.com/600x600/?Roadblocks+video+game+cover",
     "desc": "Play Roadblocks."
   },
   {
@@ -2005,7 +2005,7 @@
     "id": "extra-rooftop-snipers",
     "title": "Rooftop Snipers",
     "file": "./games/rooftop-snipers/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=rooftop-snipers",
+    "cover": "./games/rooftop-snipers/img/thumb.png",
     "desc": "Play Rooftop Snipers."
   },
   {
@@ -2033,14 +2033,14 @@
     "id": "extra-scrambled-eggs",
     "title": "Scrambled Eggs",
     "file": "./games/scrambled-eggs/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=scrambled-eggs",
+    "cover": "https://source.unsplash.com/600x600/?Scrambled+Eggs+video+game+cover",
     "desc": "Play Scrambled Eggs."
   },
   {
     "id": "extra-senya-and-oscar-2",
     "title": "Senya And Oscar 2",
     "file": "./games/senya-and-oscar-2/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=senya-and-oscar-2",
+    "cover": "https://source.unsplash.com/600x600/?Senya+And+Oscar+2+video+game+cover",
     "desc": "Play Senya And Oscar 2."
   },
   {
@@ -2054,35 +2054,35 @@
     "id": "extra-shadow-world-adventure",
     "title": "Shadow World Adventure",
     "file": "./games/shadow-world-adventure/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=shadow-world-adventure",
+    "cover": "./games/shadow-world-adventure/icons/icon-512.png",
     "desc": "Play Shadow World Adventure."
   },
   {
     "id": "extra-shards",
     "title": "Shards",
     "file": "./games/shards/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=shards",
+    "cover": "./games/shards/assets/800/Splash.png",
     "desc": "Play Shards."
   },
   {
     "id": "extra-shift-flash",
     "title": "Shift Flash",
     "file": "./games/shift-flash/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=shift-flash",
+    "cover": "https://source.unsplash.com/600x600/?Shift+Flash+video+game+cover",
     "desc": "Play Shift Flash."
   },
   {
     "id": "extra-shift-flash-2",
     "title": "Shift Flash 2",
     "file": "./games/shift-flash-2/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=shift-flash-2",
+    "cover": "https://source.unsplash.com/600x600/?Shift+Flash+2+video+game+cover",
     "desc": "Play Shift Flash 2."
   },
   {
     "id": "extra-short-life-2",
     "title": "Short Life 2",
     "file": "./games/short-life-2/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=short-life-2",
+    "cover": "./games/short-life-2/style/webgl-logo.png",
     "desc": "Play Short Life 2."
   },
   {
@@ -2103,7 +2103,7 @@
     "id": "extra-skyblock",
     "title": "Skyblock",
     "file": "./games/skyblock/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=skyblock",
+    "cover": "./games/skyblock/icons/icon-256.png",
     "desc": "Play Skyblock."
   },
   {
@@ -2124,7 +2124,7 @@
     "id": "extra-slither",
     "title": "Slither",
     "file": "./games/slither/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=slither",
+    "cover": "https://source.unsplash.com/600x600/?Slither+video+game+cover",
     "desc": "Play Slither."
   },
   {
@@ -2159,7 +2159,7 @@
     "id": "extra-smashkarts",
     "title": "Smashkarts",
     "file": "./games/smashkarts/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=smashkarts",
+    "cover": "./games/smashkarts/images/icon-512.png",
     "desc": "Play Smashkarts."
   },
   {
@@ -2173,21 +2173,21 @@
     "id": "extra-snake",
     "title": "Snake",
     "file": "./games/snake/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=snake",
+    "cover": "./games/snake/assets/gm_ifl_white_24dp.png",
     "desc": "Play Snake."
   },
   {
     "id": "extra-snowbattle",
     "title": "Snowbattle",
     "file": "./games/snowbattle/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=snowbattle",
+    "cover": "./games/snowbattle/img/logo.png",
     "desc": "Play Snowbattle."
   },
   {
     "id": "extra-soldier-legend",
     "title": "Soldier Legend",
     "file": "./games/soldier-legend/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=soldier-legend",
+    "cover": "./games/soldier-legend/images/icon_ach-sheet0.png",
     "desc": "Play Soldier Legend."
   },
   {
@@ -2201,21 +2201,21 @@
     "id": "extra-sonic-the-hedgehog",
     "title": "Sonic The Hedgehog",
     "file": "./games/sonic-the-hedgehog/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=sonic-the-hedgehog",
+    "cover": "./games/sonic-the-hedgehog/assets/images/bat.png",
     "desc": "Play Sonic The Hedgehog."
   },
   {
     "id": "extra-sort-the-court",
     "title": "Sort The Court",
     "file": "./games/sort-the-court/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=sort-the-court",
+    "cover": "./games/sort-the-court/img/icon.png",
     "desc": "Play Sort The Court."
   },
   {
     "id": "extra-soundboard",
     "title": "Soundboard",
     "file": "./games/soundboard/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=soundboard",
+    "cover": "./games/soundboard/img/mlg-favicon.png",
     "desc": "Play Soundboard."
   },
   {
@@ -2243,21 +2243,21 @@
     "id": "extra-spacehuggers",
     "title": "Spacehuggers",
     "file": "./games/spacehuggers/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=spacehuggers",
+    "cover": "https://source.unsplash.com/600x600/?Spacehuggers+video+game+cover",
     "desc": "Play Spacehuggers."
   },
   {
     "id": "extra-spelunky",
     "title": "Spelunky",
     "file": "./games/spelunky/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=spelunky",
+    "cover": "./games/spelunky/assets/icon.png",
     "desc": "Play Spelunky."
   },
   {
     "id": "extra-ssf",
     "title": "Ssf",
     "file": "./games/ssf/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=ssf",
+    "cover": "https://source.unsplash.com/600x600/?Ssf+video+game+cover",
     "desc": "Play Ssf."
   },
   {
@@ -2292,21 +2292,21 @@
     "id": "extra-stick-archers-battle",
     "title": "Stick Archers Battle",
     "file": "./games/stick-archers-battle/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=stick-archers-battle",
+    "cover": "./games/stick-archers-battle/icons/icon-512.png",
     "desc": "Play Stick Archers Battle."
   },
   {
     "id": "extra-stickclimb",
     "title": "Stickclimb",
     "file": "./games/stickclimb/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=stickclimb",
+    "cover": "https://source.unsplash.com/600x600/?Stickclimb+video+game+cover",
     "desc": "Play Stickclimb."
   },
   {
     "id": "extra-stickman",
     "title": "Stickman",
     "file": "./games/stickman/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=stickman",
+    "cover": "./games/stickman/images/34b2b8621726d53802db6f864b49cd90-CHAR_TikiMan.png",
     "desc": "Play Stickman."
   },
   {
@@ -2320,14 +2320,14 @@
     "id": "extra-stickman-dismount",
     "title": "Stickman Dismount",
     "file": "./games/stickman-dismount/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=stickman-dismount",
+    "cover": "./games/stickman-dismount/style/webgl-logo.png",
     "desc": "Play Stickman Dismount."
   },
   {
     "id": "extra-stickman-epic-battle",
     "title": "Stickman Epic Battle",
     "file": "./games/stickman-epic-battle/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=stickman-epic-battle",
+    "cover": "./games/stickman-epic-battle/style/webgl-logo.png",
     "desc": "Play Stickman Epic Battle."
   },
   {
@@ -2355,28 +2355,28 @@
     "id": "extra-subway-surfers-bali",
     "title": "Subway Surfers Bali",
     "file": "./games/subway-surfers-bali/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=subway-surfers-bali",
+    "cover": "./games/subway-surfers-bali/assets/preload/splash_mip.png",
     "desc": "Play Subway Surfers Bali."
   },
   {
     "id": "extra-super-mario-maker-online",
     "title": "Super Mario Maker Online",
     "file": "./games/super-mario-maker-online/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=super-mario-maker-online",
+    "cover": "./games/super-mario-maker-online/Theme/Mario.gif",
     "desc": "Play Super Mario Maker Online."
   },
   {
     "id": "extra-super-puffer-fish-3d",
     "title": "Super Puffer Fish 3d",
     "file": "./games/super-puffer-fish-3d/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=super-puffer-fish-3d",
+    "cover": "./games/super-puffer-fish-3d/assets/img/labels.png",
     "desc": "Play Super Puffer Fish 3d."
   },
   {
     "id": "extra-superhero-io",
     "title": "Superhero Io",
     "file": "./games/superhero-io/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=superhero-io",
+    "cover": "./games/superhero-io/res/raw-assets/resources/icon_jb.png",
     "desc": "Play Superhero Io."
   },
   {
@@ -2411,7 +2411,7 @@
     "id": "extra-tail-of-the-dragon",
     "title": "Tail Of The Dragon",
     "file": "./games/tail-of-the-dragon/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tail-of-the-dragon",
+    "cover": "./games/tail-of-the-dragon/files/favicon.png",
     "desc": "Play Tail Of The Dragon."
   },
   {
@@ -2432,7 +2432,7 @@
     "id": "extra-tetris",
     "title": "Tetris",
     "file": "./games/tetris/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tetris",
+    "cover": "./games/tetris/media/background/logo.png",
     "desc": "Play Tetris."
   },
   {
@@ -2453,14 +2453,14 @@
     "id": "extra-the-impossible-quiz",
     "title": "The Impossible Quiz",
     "file": "./games/the-impossible-quiz/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=the-impossible-quiz",
+    "cover": "https://source.unsplash.com/600x600/?The+Impossible+Quiz+video+game+cover",
     "desc": "Play The Impossible Quiz."
   },
   {
     "id": "extra-the-impossible-quiz-2",
     "title": "The Impossible Quiz 2",
     "file": "./games/the-impossible-quiz-2/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=the-impossible-quiz-2",
+    "cover": "https://source.unsplash.com/600x600/?The+Impossible+Quiz+2+video+game+cover",
     "desc": "Play The Impossible Quiz 2."
   },
   {
@@ -2516,14 +2516,14 @@
     "id": "extra-tiny-fishing",
     "title": "Tiny Fishing",
     "file": "./games/tiny-fishing/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tiny-fishing",
+    "cover": "./games/tiny-fishing/html5game/bh5logo.png",
     "desc": "Play Tiny Fishing."
   },
   {
     "id": "extra-tiny-fragments",
     "title": "Tiny Fragments",
     "file": "./games/tiny-fragments/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tiny-fragments",
+    "cover": "./games/tiny-fragments/tinyfragmentscmg/splash.png",
     "desc": "Play Tiny Fragments."
   },
   {
@@ -2537,7 +2537,7 @@
     "id": "extra-topple-adventure",
     "title": "Topple Adventure",
     "file": "./games/topple-adventure/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=topple-adventure",
+    "cover": "./games/topple-adventure/icons/icon-512.png",
     "desc": "Play Topple Adventure."
   },
   {
@@ -2551,28 +2551,28 @@
     "id": "extra-tough-growth",
     "title": "Tough Growth",
     "file": "./games/tough-growth/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tough-growth",
+    "cover": "./games/tough-growth/html5game/Tough Growth_texture_6.png",
     "desc": "Play Tough Growth."
   },
   {
     "id": "extra-towermaster",
     "title": "Towermaster",
     "file": "./games/towermaster/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=towermaster",
+    "cover": "./games/towermaster/assets/main-share-icon.png",
     "desc": "Play Towermaster."
   },
   {
     "id": "extra-trimps",
     "title": "Trimps",
     "file": "./games/trimps/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=trimps",
+    "cover": "./games/trimps/css/bg2.png",
     "desc": "Play Trimps."
   },
   {
     "id": "extra-tube-jumpers",
     "title": "Tube Jumpers",
     "file": "./games/tube-jumpers/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tube-jumpers",
+    "cover": "./games/tube-jumpers/img/icon.jpg",
     "desc": "Play Tube Jumpers."
   },
   {
@@ -2586,7 +2586,7 @@
     "id": "extra-tunnelz",
     "title": "Tunnelz",
     "file": "./games/tunnelz/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=tunnelz",
+    "cover": "./games/tunnelz/files/favicon.png",
     "desc": "Play Tunnelz."
   },
   {
@@ -2607,21 +2607,21 @@
     "id": "extra-underrun",
     "title": "Underrun",
     "file": "./games/underrun/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=underrun",
+    "cover": "./games/underrun/m/l1.png",
     "desc": "Play Underrun."
   },
   {
     "id": "extra-unfold-2",
     "title": "Unfold 2",
     "file": "./games/unfold-2/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=unfold-2",
+    "cover": "./games/unfold-2/icons/icon-256.png",
     "desc": "Play Unfold 2."
   },
   {
     "id": "extra-up-left-out",
     "title": "Up Left Out",
     "file": "./games/up-left-out/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=up-left-out",
+    "cover": "https://source.unsplash.com/600x600/?Up+Left+Out+video+game+cover",
     "desc": "Play Up Left Out."
   },
   {
@@ -2656,14 +2656,14 @@
     "id": "extra-vex6",
     "title": "Vex6",
     "file": "./games/vex6/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=vex6",
+    "cover": "./games/vex6/assets/atlases/skinsThumbnails.png",
     "desc": "Play Vex6."
   },
   {
     "id": "extra-vex7",
     "title": "Vex7",
     "file": "./games/vex7/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=vex7",
+    "cover": "./games/vex7/assets/icon.png",
     "desc": "Play Vex7."
   },
   {
@@ -2677,7 +2677,7 @@
     "id": "extra-winter-falling-price",
     "title": "Winter Falling Price",
     "file": "./games/winter-falling-price/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=winter-falling-price",
+    "cover": "./games/winter-falling-price/game/Build/winterfalling_prifeoflife_4.jpg",
     "desc": "Play Winter Falling Price."
   },
   {
@@ -2691,21 +2691,21 @@
     "id": "extra-wolf3d",
     "title": "Wolf3d",
     "file": "./games/wolf3d/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=wolf3d",
+    "cover": "./games/wolf3d/art/wolf3d.png",
     "desc": "Play Wolf3d."
   },
   {
     "id": "extra-wordle",
     "title": "Wordle",
     "file": "./games/wordle/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=wordle",
+    "cover": "./games/wordle/img/logo_32x32.png",
     "desc": "Play Wordle."
   },
   {
     "id": "extra-worlds-hardest-game",
     "title": "Worlds Hardest Game",
     "file": "./games/worlds-hardest-game/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=worlds-hardest-game",
+    "cover": "./games/worlds-hardest-game/images/splash.jpg",
     "desc": "Play Worlds Hardest Game."
   },
   {
@@ -2740,21 +2740,21 @@
     "id": "extra-you-are-bezos",
     "title": "You Are Bezos",
     "file": "./games/you-are-bezos/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=you-are-bezos",
+    "cover": "./games/you-are-bezos/img/icon.png",
     "desc": "Play You Are Bezos."
   },
   {
     "id": "extra-zig-zag",
     "title": "Zig Zag",
     "file": "./games/zig-zag/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=zig-zag",
+    "cover": "https://source.unsplash.com/600x600/?Zig+Zag+video+game+cover",
     "desc": "Play Zig Zag."
   },
   {
     "id": "extra-zombocalypse",
     "title": "Zombocalypse",
     "file": "./games/zombocalypse/index.html",
-    "cover": "https://placehold.co/600x600/1f2937/e5e7eb?text=zombocalypse",
+    "cover": "https://source.unsplash.com/600x600/?Zombocalypse+video+game+cover",
     "desc": "Play Zombocalypse."
   },
   {
