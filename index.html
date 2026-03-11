@@ -184,16 +184,6 @@
       white-space: nowrap;
     }
 
-    .top-actions {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-    }
-
-    .hidden {
-      display: none !important;
-    }
-
     .top-btn.is-active {
       background: linear-gradient(90deg, #93c5fd, #fde68a);
     }
@@ -282,10 +272,7 @@
           <p class="sub" id="currentDesc">Choose a game below or from the sidebar to play in this page.</p>
           <input id="gameSearch" class="searchbar" type="search" placeholder="Search games..." />
         </div>
-        <div class="top-actions">
-          <a class="btn top-btn hidden" id="onlineBtn" href="#" target="_blank" rel="noopener noreferrer">Play Online</a>
-          <button class="btn top-btn" id="viewBtn" type="button">Maximize View</button>
-        </div>
+        <button class="btn top-btn" id="viewBtn" type="button">Maximize View</button>
       </div>
 
       <div class="viewer">
@@ -316,8 +303,7 @@
           title: "Rocket Goal",
           file: "./rocket-goal.html",
           cover: "https://play-lh.googleusercontent.com/xYmXleDWgPjObguVDhC-hpcC8a5yP7399awTpyPdsxIzgV52VQEAndSZ9M4WhOXQQcBs248yuB_IMUKrWz061w=w600-h300-pc0xffffff-pd",
-          desc: "Control your rocket and score goals with precision and speed.",
-          onlineUrl: "https://rocketgoal.app/"
+          desc: "Control your rocket and score goals with precision and speed."
         },
         {
           id: "granny",
@@ -341,7 +327,6 @@
       var currentTitle = document.getElementById("currentTitle");
       var currentDesc = document.getElementById("currentDesc");
       var viewBtn = document.getElementById("viewBtn");
-      var onlineBtn = document.getElementById("onlineBtn");
       var gameSearch = document.getElementById("gameSearch");
       var currentGameFile = "";
       var currentGameId = "";
@@ -381,12 +366,6 @@
         homeGrid.classList.add("hidden");
         currentTitle.textContent = game.title;
         currentDesc.textContent = game.desc;
-        if (game.onlineUrl) {
-          onlineBtn.href = game.onlineUrl;
-          onlineBtn.classList.remove("hidden");
-        } else {
-          onlineBtn.classList.add("hidden");
-        }
         setActive(id);
       }
 
