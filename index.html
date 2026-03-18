@@ -3,117 +3,296 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Game Portal</title>
+  <title>Arcade Atlas</title>
   <style>
+    @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&display=swap");
+
     :root {
-      --text: #f8fafc;
-      --muted: #cbd5e1;
-      --panel: #132548;
-      --panel-2: #1a3260;
+      --bg: #08111f;
+      --bg-2: #0f1d33;
+      --panel: rgba(11, 20, 37, 0.84);
+      --panel-strong: rgba(12, 23, 42, 0.94);
+      --soft: rgba(255, 255, 255, 0.08);
       --line: rgba(255, 255, 255, 0.12);
-      --accent: #f59e0b;
-      --accent-2: #22d3ee;
+      --text: #f4f7fb;
+      --muted: #98a6bf;
+      --accent: #ff7b54;
+      --accent-2: #ffd166;
+      --accent-3: #65e5d8;
+      --shadow: 0 24px 70px rgba(0, 0, 0, 0.38);
+      --radius: 24px;
+      --radius-sm: 16px;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
       margin: 0;
       min-height: 100vh;
       color: var(--text);
-      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+      font-family: "Space Grotesk", sans-serif;
       background:
-        radial-gradient(circle at 12% 15%, #1e3a8a 0%, transparent 28%),
-        radial-gradient(circle at 90% 10%, #0891b2 0%, transparent 24%),
-        linear-gradient(145deg, #020617 0%, #0f172a 52%, #111827 100%);
+        radial-gradient(circle at 15% 18%, rgba(101, 229, 216, 0.18), transparent 26%),
+        radial-gradient(circle at 84% 12%, rgba(255, 123, 84, 0.18), transparent 24%),
+        radial-gradient(circle at 50% 100%, rgba(255, 209, 102, 0.12), transparent 28%),
+        linear-gradient(160deg, var(--bg) 0%, #0d1729 44%, var(--bg-2) 100%);
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 42px 42px;
+      mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+      pointer-events: none;
+      opacity: 0.32;
     }
 
     body.maximized {
       overflow: hidden;
     }
 
-    .page {
-      width: min(1240px, 95vw);
-      margin: 20px auto;
+    .shell {
+      position: relative;
+      z-index: 1;
+      width: min(1440px, calc(100vw - 32px));
+      margin: 16px auto;
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 320px;
-      gap: 16px;
-      min-height: calc(100vh - 40px);
+      grid-template-columns: minmax(0, 1fr) 340px;
+      gap: 18px;
+      align-items: start;
     }
 
-    body.maximized .page {
+    body.maximized .shell {
       width: 100vw;
-      max-width: none;
       margin: 0;
-      min-height: 100vh;
-      display: block;
+      max-width: none;
+      grid-template-columns: 1fr;
+    }
+
+    .main-panel,
+    .sidebar {
+      background: linear-gradient(180deg, rgba(18, 29, 49, 0.92), rgba(8, 15, 27, 0.92));
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
     }
 
     .main-panel {
-      background: linear-gradient(145deg, var(--panel), var(--panel-2));
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 14px;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      min-height: 0;
+      overflow: hidden;
     }
 
     body.maximized .main-panel {
-      height: 100vh;
+      min-height: 100vh;
       border-radius: 0;
       border: 0;
-      padding: 10px;
     }
 
-    .topbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 10px;
+    .masthead {
+      position: relative;
+      padding: 28px 28px 22px;
+      border-bottom: 1px solid var(--soft);
+      overflow: hidden;
     }
 
-    body.maximized .sub {
-      display: none;
+    .masthead::after {
+      content: "";
+      position: absolute;
+      inset: auto -10% -45% auto;
+      width: 280px;
+      height: 280px;
+      background: radial-gradient(circle, rgba(255, 123, 84, 0.28), transparent 70%);
+      pointer-events: none;
     }
 
-    .topbar h1 {
-      margin: 0;
-      font-size: clamp(1.35rem, 2vw, 1.9rem);
-      letter-spacing: 0.02em;
+    .masthead-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--accent-3);
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: currentColor;
+      box-shadow: 0 0 18px currentColor;
+    }
+
+    h1 {
+      margin: 14px 0 10px;
+      font-family: "Syne", sans-serif;
+      font-size: clamp(2.7rem, 6vw, 5rem);
+      line-height: 0.92;
+      letter-spacing: -0.05em;
+      max-width: 10ch;
     }
 
     .sub {
-      margin: 4px 0 0;
+      margin: 0;
+      max-width: 58ch;
       color: var(--muted);
-      font-size: 0.95rem;
+      font-size: 1rem;
+      line-height: 1.55;
     }
 
-    .searchbar {
-      width: min(420px, 100%);
-      border: 1px solid rgba(255, 255, 255, 0.22);
-      background: rgba(0, 0, 0, 0.25);
-      color: var(--text);
-      border-radius: 10px;
-      padding: 8px 10px;
-      font-size: 0.9rem;
-      margin-top: 8px;
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      margin-top: 22px;
+      align-items: center;
     }
 
-    .viewer {
-      background: transparent;
-      border-radius: 12px;
-      overflow: hidden;
-      min-height: 70vh;
-      border: 0;
+    .search-wrap {
       position: relative;
     }
 
+    .search-wrap::before {
+      content: "Search";
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      font-size: 0.76rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      pointer-events: none;
+    }
+
+    .searchbar {
+      width: 100%;
+      padding: 18px 18px 18px 82px;
+      border-radius: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text);
+      font: inherit;
+      outline: none;
+      transition: border-color 0.18s ease, transform 0.18s ease, background 0.18s ease;
+    }
+
+    .searchbar:focus {
+      border-color: rgba(101, 229, 216, 0.6);
+      background: rgba(255, 255, 255, 0.08);
+      transform: translateY(-1px);
+    }
+
+    .searchbar::placeholder {
+      color: rgba(152, 166, 191, 0.88);
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 16px;
+      padding: 14px 18px;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.18s ease, filter 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.04);
+    }
+
+    .btn-primary {
+      color: #1b1722;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      box-shadow: 0 12px 24px rgba(255, 123, 84, 0.22);
+    }
+
+    .btn-ghost {
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .stats {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .stat-pill {
+      min-width: 118px;
+      padding: 12px 14px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .stat-label {
+      display: block;
+      color: var(--muted);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 6px;
+    }
+
+    .stat-value {
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .player-shell {
+      padding: 22px 22px 24px;
+      display: grid;
+      gap: 18px;
+    }
+
+    .viewer {
+      position: relative;
+      min-height: 68vh;
+      border-radius: 24px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 20% 18%, rgba(101, 229, 216, 0.18), transparent 22%),
+        radial-gradient(circle at 83% 16%, rgba(255, 123, 84, 0.24), transparent 18%),
+        linear-gradient(145deg, rgba(9, 16, 29, 0.96), rgba(6, 10, 20, 0.96));
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    }
+
     body.maximized .viewer {
-      flex: 1;
-      min-height: 0;
-      height: 100%;
+      min-height: calc(100vh - 130px);
     }
 
     #gameFrame {
@@ -124,166 +303,339 @@
       background: #000;
     }
 
-    .home-grid {
+    .home-state {
       position: absolute;
       inset: 0;
-      padding: 16px;
+      padding: 22px;
       overflow: auto;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 160px));
-      justify-content: center;
-      gap: 12px;
+      gap: 18px;
       align-content: start;
-      background: transparent;
     }
 
-    .home-grid.hidden { display: none; }
-
-    .home-card {
-      background: transparent;
-      border: 0;
-      border-radius: 12px;
-      padding: 6px;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      aspect-ratio: 1;
+    .home-state.hidden {
+      display: none;
     }
 
-    .home-card img {
-      width: 100%;
-      aspect-ratio: 1;
-      object-fit: cover;
-      border-radius: 8px;
+    .featured-banner {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+      gap: 14px;
+      align-items: stretch;
+    }
+
+    .banner-copy,
+    .banner-card {
+      border-radius: 24px;
+      padding: 22px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .banner-copy h2 {
+      margin: 0 0 10px;
+      font-family: "Syne", sans-serif;
+      font-size: clamp(1.6rem, 3vw, 2.6rem);
+      line-height: 1;
+      letter-spacing: -0.05em;
+    }
+
+    .banner-copy p,
+    .banner-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .banner-card strong {
       display: block;
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent-3);
     }
 
-    .home-card h2 {
-      margin: 0;
-      font-size: 0.86rem;
-      text-align: center;
-    }
-
-    .home-card p {
-      display: none;
-    }
-
-    .btn {
-      border: 0;
-      border-radius: 9px;
-      padding: 7px 10px;
-      font-weight: 700;
-      font-size: 0.82rem;
-      color: #111827;
-      cursor: pointer;
-      background: linear-gradient(90deg, var(--accent), var(--accent-2));
-    }
-
-    .top-btn {
-      align-self: center;
-      white-space: nowrap;
-    }
-
-    .top-btn.is-active {
-      background: linear-gradient(90deg, #93c5fd, #fde68a);
-    }
-
-    .side {
-      background: linear-gradient(145deg, var(--panel), var(--panel-2));
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 14px;
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 10px;
-      align-content: start;
-      overflow: auto;
-    }
-
-    body.maximized .side {
-      display: none;
-    }
-
-    .side h2 {
-      margin: 0;
-      font-size: 1.1rem;
-      grid-column: 1 / -1;
-    }
-
-    #gameItems {
-      grid-column: 1 / -1;
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 10px;
-      align-content: start;
-    }
-
-    .game-item {
+    .section-heading {
       display: flex;
-      flex-direction: column;
-      gap: 6px;
-      border: 1px solid rgba(255, 255, 255, 0.10);
-      border-radius: 12px;
-      background: rgba(0, 0, 0, 0.18);
-      padding: 6px;
-      aspect-ratio: 1;
-      cursor: pointer;
-      text-align: center;
-      color: inherit;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
     }
 
-    .game-item.active {
-      border-color: rgba(34, 211, 238, 0.9);
-      background: rgba(34, 211, 238, 0.12);
+    .section-heading h3 {
+      margin: 0;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--muted);
     }
 
+    .result-count {
+      color: var(--muted);
+      font-size: 0.84rem;
+    }
+
+    .home-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(172px, 1fr));
+      gap: 14px;
+    }
+
+    .home-card,
+    .game-item {
+      display: grid;
+      gap: 10px;
+      padding: 12px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+    }
+
+    .home-card:hover,
+    .game-item:hover {
+      transform: translateY(-3px);
+      border-color: rgba(101, 229, 216, 0.32);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .home-card img,
     .game-item img {
       width: 100%;
       aspect-ratio: 1;
       object-fit: cover;
-      border-radius: 8px;
+      border-radius: 16px;
       display: block;
+      background: rgba(255, 255, 255, 0.06);
     }
 
+    .home-card h2,
     .game-item-title {
       margin: 0;
-      font-size: 0.8rem;
-      font-weight: 700;
+      font-size: 0.95rem;
+      line-height: 1.15;
+    }
+
+    .home-card p,
+    .game-item-desc {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.83rem;
+      line-height: 1.45;
+    }
+
+    .play-btn {
+      width: 100%;
+      margin-top: auto;
+    }
+
+    .sidebar {
+      padding: 20px;
+      position: sticky;
+      top: 16px;
+      max-height: calc(100vh - 32px);
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: auto auto minmax(0, 1fr);
+      gap: 16px;
+    }
+
+    body.maximized .sidebar {
+      display: none;
+    }
+
+    .sidebar-head h2 {
+      margin: 0 0 6px;
+      font-family: "Syne", sans-serif;
+      font-size: 1.45rem;
+      letter-spacing: -0.04em;
+    }
+
+    .sidebar-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.45;
+    }
+
+    .sidebar-search {
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 14px 16px;
+      color: var(--text);
+      font: inherit;
+      width: 100%;
+    }
+
+    .sidebar-search::placeholder {
+      color: var(--muted);
+    }
+
+    #gameItems {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      overflow: auto;
+      padding-right: 4px;
+      align-content: start;
+    }
+
+    .game-item {
+      aspect-ratio: 0.95;
+      text-align: left;
+      cursor: pointer;
+      color: inherit;
+    }
+
+    .game-item.active {
+      border-color: rgba(101, 229, 216, 0.65);
+      background: linear-gradient(180deg, rgba(101, 229, 216, 0.14), rgba(255, 255, 255, 0.04));
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
     }
 
     .game-item-desc {
       display: none;
     }
 
-    @media (max-width: 900px) {
-      .page { grid-template-columns: 1fr; }
-      .viewer { min-height: 60vh; }
-      .side { max-height: 42vh; }
-      .topbar { align-items: stretch; }
+    .empty-state {
+      padding: 28px 20px;
+      border-radius: 20px;
+      border: 1px dashed rgba(255, 255, 255, 0.16);
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 1080px) {
+      .shell {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: static;
+        max-height: none;
+      }
+
+      #gameItems {
+        max-height: 44vh;
+      }
+    }
+
+    @media (max-width: 780px) {
+      .shell {
+        width: min(100vw - 18px, 100%);
+        margin: 9px auto;
+      }
+
+      .masthead {
+        padding: 22px 18px 18px;
+      }
+
+      .masthead-grid,
+      .toolbar,
+      .featured-banner {
+        grid-template-columns: 1fr;
+      }
+
+      .actions {
+        justify-content: stretch;
+      }
+
+      .actions .btn {
+        width: 100%;
+      }
+
+      .player-shell {
+        padding: 16px 16px 20px;
+      }
+
+      .home-state {
+        padding: 16px;
+      }
+
+      .home-grid {
+        grid-template-columns: repeat(auto-fit, minmax(146px, 1fr));
+      }
+
+      #gameItems {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
     }
   </style>
 </head>
 <body>
-  <div class="page">
-    <section class="main-panel">
-      <div class="topbar">
-        <div>
-          <h1 id="currentTitle">Game Portal</h1>
-          <p class="sub" id="currentDesc">Choose a game below or from the sidebar to play in this page.</p>
-          <input id="gameSearch" class="searchbar" type="search" placeholder="Search games..." />
+  <div class="shell">
+    <main class="main-panel">
+      <section class="masthead">
+        <div class="masthead-grid">
+          <div>
+            <span class="eyebrow">Playable Library</span>
+            <h1 id="currentTitle">Arcade Atlas</h1>
+            <p class="sub" id="currentDesc">Search, browse, and launch your games from one polished control room. Pick anything from the grid or sidebar and it loads instantly in the player.</p>
+            <div class="toolbar">
+              <div class="search-wrap">
+                <input id="gameSearch" class="searchbar" type="search" placeholder="Find Geometry Dash, Granny, Minecraft, Ducklife..." />
+              </div>
+              <div class="actions">
+                <button class="btn btn-ghost" id="backBtn" type="button">Back To Library</button>
+                <button class="btn btn-primary" id="viewBtn" type="button">Maximize View</button>
+              </div>
+            </div>
+            <div class="stats">
+              <div class="stat-pill">
+                <span class="stat-label">Mode</span>
+                <span class="stat-value">Instant Play</span>
+              </div>
+              <div class="stat-pill">
+                <span class="stat-label">Catalog</span>
+                <span class="stat-value" id="gameCount">4 Games</span>
+              </div>
+              <div class="stat-pill">
+                <span class="stat-label">View</span>
+                <span class="stat-value">In Browser</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <button class="btn top-btn" id="viewBtn" type="button">Maximize View</button>
+      </section>
+
+      <section class="player-shell">
+        <div class="viewer">
+          <iframe id="gameFrame" title="Game Player" allow="fullscreen; autoplay"></iframe>
+
+          <div class="home-state" id="homeState">
+            <div class="featured-banner">
+              <div class="banner-copy">
+                <h2>Built like a real arcade, not a file list.</h2>
+                <p>The library stays searchable, the player stays fast, and the whole portal feels closer to a modern launcher than a static HTML page.</p>
+              </div>
+              <div class="banner-card">
+                <strong>Quick Start</strong>
+                <p>Use search to narrow the catalog, click any tile to open a game in place, then use Maximize View when you want a cleaner play session.</p>
+              </div>
+            </div>
+
+            <div class="section-heading">
+              <h3>Library</h3>
+              <span class="result-count" id="resultCount">Showing 4 games</span>
+            </div>
+
+            <div class="home-grid" id="homeGrid"></div>
+            <div class="empty-state" id="emptyState" hidden>No games match that search yet. Try a different title.</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="sidebar">
+      <div class="sidebar-head">
+        <h2>Quick Switch</h2>
+        <p>Jump between titles without leaving the page.</p>
       </div>
-
-      <div class="viewer">
-        <iframe id="gameFrame" title="Game Player" allow="fullscreen; autoplay"></iframe>
-
-        <div class="home-grid" id="homeGrid"></div>
-      </div>
-    </section>
-
-    <aside class="side" id="gameList">
-      <h2>Games</h2>
+      <input id="sidebarSearch" class="sidebar-search" type="search" placeholder="Search catalog..." />
       <div id="gameItems"></div>
     </aside>
   </div>
@@ -321,17 +673,24 @@
         }
       ];
 
-      var gameItems = document.getElementById("gameItems");
       var frame = document.getElementById("gameFrame");
+      var homeState = document.getElementById("homeState");
       var homeGrid = document.getElementById("homeGrid");
+      var emptyState = document.getElementById("emptyState");
+      var gameItems = document.getElementById("gameItems");
+      var gameSearch = document.getElementById("gameSearch");
+      var sidebarSearch = document.getElementById("sidebarSearch");
       var currentTitle = document.getElementById("currentTitle");
       var currentDesc = document.getElementById("currentDesc");
+      var resultCount = document.getElementById("resultCount");
+      var gameCount = document.getElementById("gameCount");
       var viewBtn = document.getElementById("viewBtn");
-      var gameSearch = document.getElementById("gameSearch");
-      var currentGameFile = "";
-      var currentGameId = "";
+      var backBtn = document.getElementById("backBtn");
+
       var games = baseGames.slice();
       var filteredGames = games.slice();
+      var currentGameId = "";
+      var currentGameFile = "";
 
       function placeholderCover(title) {
         return "https://placehold.co/600x600/1f2937/e5e7eb?text=" + encodeURIComponent(title || "Game");
@@ -348,6 +707,11 @@
         return img;
       }
 
+      function updateCounts() {
+        gameCount.textContent = games.length + (games.length === 1 ? " Game" : " Games");
+        resultCount.textContent = "Showing " + filteredGames.length + (filteredGames.length === 1 ? " game" : " games");
+      }
+
       function setActive(id) {
         var items = document.querySelectorAll(".game-item");
         items.forEach(function (el) {
@@ -355,17 +719,30 @@
         });
       }
 
+      function showLibrary() {
+        frame.style.display = "none";
+        frame.src = "about:blank";
+        currentGameFile = "";
+        currentGameId = "";
+        currentTitle.textContent = "Arcade Atlas";
+        currentDesc.textContent = "Search, browse, and launch your games from one polished control room. Pick anything from the grid or sidebar and it loads instantly in the player.";
+        homeState.classList.remove("hidden");
+        setActive("");
+      }
+
       function openGame(id) {
-        var game = games.find(function (g) { return g.id === id; });
+        var game = games.find(function (entry) {
+          return entry.id === id;
+        });
         if (!game) return;
 
-        frame.src = game.file;
-        currentGameFile = game.file;
         currentGameId = game.id;
-        frame.style.display = "block";
-        homeGrid.classList.add("hidden");
+        currentGameFile = game.file;
         currentTitle.textContent = game.title;
         currentDesc.textContent = game.desc;
+        frame.src = game.file;
+        frame.style.display = "block";
+        homeState.classList.add("hidden");
         setActive(id);
       }
 
@@ -390,6 +767,15 @@
 
       function renderSidebar(items) {
         gameItems.innerHTML = "";
+
+        if (!items.length) {
+          var none = document.createElement("div");
+          none.className = "empty-state";
+          none.textContent = "No games match this search.";
+          gameItems.appendChild(none);
+          return;
+        }
+
         items.forEach(function (game) {
           var item = document.createElement("button");
           item.className = "game-item";
@@ -397,30 +783,30 @@
           item.dataset.id = game.id;
 
           item.appendChild(createCoverImg(game));
-          var wrap = document.createElement("div");
+
           var title = document.createElement("p");
           title.className = "game-item-title";
           title.textContent = game.title;
-          var desc = document.createElement("p");
-          desc.className = "game-item-desc";
-          desc.textContent = game.desc;
-          wrap.appendChild(title);
-          wrap.appendChild(desc);
-          item.appendChild(wrap);
+          item.appendChild(title);
 
           item.addEventListener("click", function () {
             openGame(game.id);
           });
+
           gameItems.appendChild(item);
         });
+
         setActive(currentGameId);
       }
 
       function renderHomeCards(items) {
         homeGrid.innerHTML = "";
+        emptyState.hidden = items.length !== 0;
+
         items.forEach(function (game) {
           var card = document.createElement("article");
           card.className = "home-card";
+
           card.appendChild(createCoverImg(game));
 
           var title = document.createElement("h2");
@@ -432,9 +818,9 @@
           card.appendChild(desc);
 
           var playBtn = document.createElement("button");
-          playBtn.className = "btn";
+          playBtn.className = "btn btn-primary play-btn";
           playBtn.type = "button";
-          playBtn.textContent = "Play";
+          playBtn.textContent = "Launch";
           playBtn.addEventListener("click", function () {
             openGame(game.id);
           });
@@ -445,42 +831,58 @@
       }
 
       function applySearchFilter() {
-        var q = gameSearch.value.trim().toLowerCase();
-        if (!q) {
+        var query = (gameSearch.value || sidebarSearch.value || "").trim().toLowerCase();
+        if (!query) {
           filteredGames = games.slice();
         } else {
-          filteredGames = games.filter(function (g) {
-            return g.title.toLowerCase().indexOf(q) !== -1;
+          filteredGames = games.filter(function (game) {
+            return game.title.toLowerCase().indexOf(query) !== -1;
           });
         }
+
+        if (gameSearch.value !== sidebarSearch.value) {
+          gameSearch.value = query ? (gameSearch.value || sidebarSearch.value) : "";
+          sidebarSearch.value = gameSearch.value;
+        }
+
         renderSidebar(filteredGames);
         renderHomeCards(filteredGames);
+        updateCounts();
       }
 
       function mergeExtraGames(extraGames) {
         var seen = {};
-        games.forEach(function (g) { seen[g.file] = true; });
-        extraGames.forEach(function (g) {
-          if (!seen[g.file]) {
-            games.push(g);
-            seen[g.file] = true;
+        games.forEach(function (game) {
+          seen[game.file] = true;
+        });
+
+        extraGames.forEach(function (game) {
+          if (!seen[game.file]) {
+            games.push(game);
+            seen[game.file] = true;
           }
         });
       }
 
       renderHomeCards(filteredGames);
       renderSidebar(filteredGames);
+      updateCounts();
+
       viewBtn.addEventListener("click", activateBestView);
+      backBtn.addEventListener("click", showLibrary);
       gameSearch.addEventListener("input", applySearchFilter);
+      sidebarSearch.addEventListener("input", applySearchFilter);
 
       fetch("./extra-games.json")
-        .then(function (res) { return res.json(); })
+        .then(function (res) {
+          return res.json();
+        })
         .then(function (extraGames) {
           mergeExtraGames(extraGames);
           applySearchFilter();
         })
         .catch(function () {
-          // Base games still work if batch file is missing.
+          updateCounts();
         });
     })();
   </script>
